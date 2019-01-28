@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+<section id="content">
+{% block content_title %}
+<h2>Curso Python Devhack</h2>
+{% endblock %}
+<ol id="post-list">
+{% for article in articles_page.object_list %}
+        <li><article class="hentry">
+                <header>
+                    <h2 class="entry-title">
+                        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                            {{loop.index}} {{ article.title }}
+                        </a>
+                    </h2>
+                </header>
+                <footer class="post-info">
+                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                    <address class="vcard author">By
+                    {% for author in article.authors %}
+                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                    {% endfor %}
+                    </address>
+                </footer><!-- /.post-info -->
+                <!--<div class="entry-content"> {{ article.summary }} </div>-->
+            <!-- /.entry-content -->
+        </article></li>
+{% endfor %}
+</ol><!-- /#posts-list -->
+    <h2>
+        Algunos documentos útiles
+    </h2>
+    <ol><!-- pages-list-->
+        {% for pg in pages %}
+            <li {% if pg == page %} class="active"{% endif %}>
+                    <a href="{{ SITEURL }}/{{ pg.url }}">
+                            {{ pg.title }}
+                    </a>
+            </li>
+        {% endfor %}
+    </ol><!-- end of pages-list-->
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+</section><!-- /#content -->
+{% endblock content %}

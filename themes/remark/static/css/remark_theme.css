@@ -1,0 +1,56 @@
+html{
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+
+h1, h2{
+    color: black;
+}
+
+.body{
+    color: black;
+}
+
+.inverse {
+    background: #272822;
+    color: #777872;
+    text-shadow: 0 0 20px #333;
+}
+
+.inverse h1, .inverse h2 {
+    color: #f3f3f3;
+    line-height: 0.8em;
+}
+
+.first-slide{
+    background: #468688ff;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+.remark-slide-content
+{
+    background: #468688ff;
+
+}
+
+img{
+    width: 60%;
+}
+
+ul{
+    list-style: none;
+}
+
+.footnote{
+  position: absolute;
+  width: 60%;
+  height: 100px;
+  bottom: 3em;
+  left: 30%;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat, no-repeat ;
+  background-position: left, right;
+  background-size: contain,contain;
+}

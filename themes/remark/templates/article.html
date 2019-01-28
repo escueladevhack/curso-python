@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+  {% if article.description %}
+    <meta name="description" content="{{article.description}}" />
+  {% endif %}
+
+  {% for tag in article.tags %}
+    <meta name="tags" content="{{tag}}" />
+  {% endfor %}
+
+{% endblock %}
+
+{% block content %}
+
+<textarea id="source">
+    {{ article.content }}
+</textarea>
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/remark.min.js"></script>
+<script>
+    var slideshow = remark.create();
+</script>
+
+{% endblock %}
