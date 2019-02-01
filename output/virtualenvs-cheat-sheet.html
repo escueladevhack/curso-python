@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+          <link rel="stylesheet" href="/theme/css/remark_theme.css" />
+
+        <title>Curso rápido de Python</title>
+        <meta charset="utf-8" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <!--<header id="banner" class="body">-->
+                <!--<h1><a href="/">Curso rápido de Python <strong></strong></a></h1>-->
+        <!--</header>-->
+        <!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+
+<textarea id="source">
+    ![]()
+---
+class: center, middle
+# Virtualenvs Cheat Sheet
+## Mauricio Collazos
+---
+**Listar todos los ambientes**
+
+```bash
+conda env list
+```
+---
+**Crear un ambiente**
+
+Conda
+```bash
+conda create --name [nombre_del_ambiente]
+```
+
+Virtualenv
+```bash
+python -m venv [nombre_del_ambiente]
+```
+
+**Activar un ambiente**
+
+Conda
+```bash
+# x-nix
+source activate [nombre_del_ambiente]
+# windows
+activate [nombre_del_ambiente]
+```
+
+Virtualenv
+```bash
+# x-nix
+source carpeta_del_ambiente/bin/activate
+# windows
+carpeta_del_ambiente\Scripts\activate
+```
+---
+
+
+**Descripción del ambiente para replicas**
+
+Conda
+```bash
+conda env export > environment.yml
+```
+
+Virtualenv
+```bash
+pip freeze > requirements.txt
+```
+---
+**Replicar ambiente**
+
+Conda
+```bash
+conda install --file environment.yml
+```
+
+Virtualenv
+```bash
+pip install -r requirements.txt
+```
+
+
+**Instalar paquete**
+
+Conda
+```bash
+conda install [nombre_paquete]
+```
+
+Virtualenv
+```bash
+pip install [nombre_paquete]
+```
+
+</textarea>
+<script src="/theme/js/remark.min.js"></script>
+<script>
+    var slideshow = remark.create();
+</script>
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

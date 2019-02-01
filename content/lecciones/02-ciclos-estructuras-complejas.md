@@ -1,0 +1,85 @@
+Title: Ciclos y estructuras complejas
+Author: Mauricio Collazos
+Date: 2019-02-01
+![]()
+---
+class: center, middle, light, first-slide
+# Ciclos y estructuras complejas
+## Mauricio Collazos
+.footnote[]
+---
+class: light
+# Condicionales
+```python
+if condición:
+    sentencias
+elif otra condición:
+    sentencias
+else:
+    mas sentencias
+```
+---
+# Ciclos
+```python
+for elemento in iterable:
+    print(elemento)
+    
+while condicion:
+    programa
+```
+- [range](https://docs.python.org/3/library/functions.html#func-range)
+- [enumerate](https://docs.python.org/3/library/functions.html#enumerate)
+- [Mas funciones](https://docs.python.org/3/library/functions.html)
+---
+# Cadenas
+- [Cadenas en general](https://docs.python.org/3/library/stdtypes.html#str)
+- ["{}" Formato](https://docs.python.org/3/library/string.html#format-string-syntax)
+- Métodos interesantes:
+   - .capitalize()
+   - .endswith("sufijo")
+   - .find("substring)
+   - .islower() .isupper()
+   - .join(list)
+   - .split("separador")
+   - .startswith("prefijo"")
+---
+# Listas
+- .append(elemento)
+- .extend(lista)
+- .insert(posición, elemento)
+- .eliminar(elemento)
+- .pop(posición=-1)
+
+[Mas métodos](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
+
+---
+# Ejercicios
+
+- Haga una lista con los pares de 0 hasta n (n ingresado por el usuario)
+- Haga una lista de n primeros cuadrados (n ingresado por el usuario)
+- Haga un programa que lea dos listas de mismo tamaño y haga parejas con los i-esimos elementos
+- Haga un programa que obtenga el menor elemento  y el mayor elemento de una lista
+- Haga un programa que obtenga el segundo menor elemento de una lista
+- Haga un programa que encuentre todos los elementos comunes en dos listas distintas
+- Haga un programa que encuentre todos los elementos no comunes en dos listas
+
+---
+# Diccionarios
+```python
+for llave, valor in diccionario.items():
+    print(llave, valor)
+```
+
+---
+# Operador *
+```python
+a, *b, c = "123456789"
+```
+---
+# Oneliners
+```python
+x = [x for x in range(10)]
+y = [x for x in range(10)]
+z = {x for x in range(10) if x %2 x == 2}
+w = {str(x): x*2 for x in range(10)}
+```

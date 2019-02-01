@@ -50,9 +50,11 @@ THEME = os.path.join(
     'remark'
 )
 
-# READERS = {
-#     "md": CustomMarkdownReader
-# }
+READERS = {
+    "md": CustomMarkdownReader
+}
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+ARTICLE_ORDER_BY = "date"
+PAGE_ORDER_BY = "date"
