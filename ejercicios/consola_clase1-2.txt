@@ -1,0 +1,869 @@
+Last login: Wed Jan 30 18:46:11 on ttys005
+Mauricios-MBP-2:01_hola_mundo ma0$ ls
+build		build.gradle	src
+Mauricios-MBP-2:01_hola_mundo ma0$ cd ..
+Mauricios-MBP-2:ejercicios ma0$ cd ..
+Mauricios-MBP-2:curso_rapido_backend_java ma0$ cd ..
+Mauricios-MBP-2:cursos ma0$ cd curso_rapido_python
+Mauricios-MBP-2:curso_rapido_python ma0$ ls
+Makefile			content				output				tasks.py
+README.md			custom_pelican_markdown_reader	pelicanconf.py			themes
+__pycache__			ejercicios			publishconf.py
+Mauricios-MBP-2:curso_rapido_python ma0$ cd ejercicios/
+Mauricios-MBP-2:ejercicios ma0$ ls
+clase01
+Mauricios-MBP-2:ejercicios ma0$ cd clase01/
+Mauricios-MBP-2:clase01 ma0$ ls
+juego_sumas.py
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+2 + 9 = 3
+5 + 7 = 54
+5 + 5 = 10
+3 + 5 = 3
+10 + 1 = 5
+4 + 6 = 2
+8 + 8 = 5
+1 + 2 = 2
+9 + 10 = 4
+8 + 7 = 2
+===========
+===1/10===
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+5 + 6 = 3
+4 + 7 = 2
+7 + 4 = 4
+0 + 6 = 3
+7 + 8 = 45
+2 + 4 =
+Traceback (most recent call last):
+  File "juego_sumas.py", line 11, in <module>
+    if operator1 + operator2 == int(user_result):
+ValueError: invalid literal for int() with base 10: ''
+Mauricios-MBP-2:clase01 ma0$ 3
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+7 + 10 = 2
+6 + 7 = 4
+5 + 0 = 5
+2 + 2 = 3
+3 + 8 = 2
+6 + 4 = 5
+10 + 2 =
+Traceback (most recent call last):
+  File "juego_sumas.py", line 11, in <module>
+    if operator1 + operator2 == int(user_result):
+ValueError: invalid literal for int() with base 10: ''
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+8 + 2 = 3
+9 + 1 = 2
+10 + 0 = 4
+1 + 6 = 6
+9 + 1 = 3
+0 + 10 = 2
+1 + 10 = 1
+9 + 7 = 4
+3 + 9 = 6
+6 + 1 = 7
+===========
+===1/10===
+0:00:05.118444
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+Traceback (most recent call last):
+  File "juego_sumas.py", line 16, in <module>
+    current_operation = choice(operations)
+  File "/Users/ma0/miniconda3/lib/python3.6/random.py", line 259, in choice
+    return seq[i]
+KeyError: 2
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+Traceback (most recent call last):
+  File "juego_sumas.py", line 16, in <module>
+    current_operation = choice(operations.keys())
+  File "/Users/ma0/miniconda3/lib/python3.6/random.py", line 259, in choice
+    return seq[i]
+TypeError: 'dict_keys' object does not support indexing
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+Traceback (most recent call last):
+  File "juego_sumas.py", line 16, in <module>
+    current_operation = choice(operations.items())
+  File "/Users/ma0/miniconda3/lib/python3.6/random.py", line 259, in choice
+    return seq[i]
+TypeError: 'dict_items' object does not support indexing
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+Traceback (most recent call last):
+  File "juego_sumas.py", line 16, in <module>
+    current_operation = choice(operations.keys())
+  File "/Users/ma0/miniconda3/lib/python3.6/random.py", line 259, in choice
+    return seq[i]
+TypeError: 'dict_keys' object does not support indexing
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+1 + 6 = 7
+Traceback (most recent call last):
+  File "juego_sumas.py", line 18, in <module>
+    if current_operation(operator1, operator2)== int(user_result):
+TypeError: 'str' object is not callable
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+9 - 8 = 1
+4 + 5 = 9
+4 * 7 = 43
+1 - 9 = 3
+10 - 10 = 2
+0 + 1 = 5
+5 * 4 = 3
+8 + 4 = 2
+1 * 8 = 1
+5 - 9 = 4
+===========
+===1/10===
+0:00:08.108997
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+2 - 0 = 2
+10 * 9 = 90
+4 + 1 = 5
+2 * 7 = 14
+8 - 5 = 3
+10 + 7 = 17
+8 * 3 = 24
+10 - 0 = 10
+1 + 8 = 9
+0 - 4 = -4
+===========
+===5/10===
+0:00:20.394730
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+5 + 9 = 14
+3 - 2 = 1
+3 + 10 = 13
+5 * 9 = 45
+3 - 4 = -1
+7 * 7 = 49
+2 * 0 = 0
+1 - 5 = -4
+9 * 3 = 27
+3 + 3 = 6
+===========
+===10/10===
+0:00:19.269040
+Mauricios-MBP-2:clase01 ma0$ python juego_sumas.py
+9 * 2 = 18
+0 + 6 = 6
+0 - 3 = 34
+5 * 8 = 34
+6 - 2 = 34
+3 * 8 = 34
+0 - 4 = 34
+7 + 7 = 34
+4 - 3 = 43
+1 * 10 = 34
+===========
+===2/10===
+0:00:06.577891
+Mauricios-MBP-2:clase01 ma0$ cd ..
+Mauricios-MBP-2:ejercicios ma0$ cd ..
+Mauricios-MBP-2:curso_rapido_python ma0$ ls
+Makefile			content				output				tasks.py
+README.md			custom_pelican_markdown_reader	pelicanconf.py			themes
+__pycache__			ejercicios			publishconf.py
+Mauricios-MBP-2:curso_rapido_python ma0$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ejercicios/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Mauricios-MBP-2:curso_rapido_python ma0$ cd ejercicios/
+Mauricios-MBP-2:ejercicios ma0$ cd ..
+Mauricios-MBP-2:curso_rapido_python ma0$ git init
+Mauricios-MBP-2:curso_rapido_python ma0$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	ejercicios/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Mauricios-MBP-2:curso_rapido_python ma0$ git add .
+Mauricios-MBP-2:curso_rapido_python ma0$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   ejercicios/clase01/juego_sumas.py
+
+Mauricios-MBP-2:curso_rapido_python ma0$ git add
+Mauricios-MBP-2:curso_rapido_python ma0$ git commit -m "agregar juego sumas"
+[master 1d8bb25] agregar juego sumas
+ 1 file changed, 23 insertions(+)
+ create mode 100644 ejercicios/clase01/juego_sumas.py
+Mauricios-MBP-2:curso_rapido_python ma0$ git config --global user.email "ma0@contraslash.com"
+Mauricios-MBP-2:curso_rapido_python ma0$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 666 bytes | 666.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/escueladevhack/curso-python
+   f6b2efe..1d8bb25  master -> master
+Mauricios-MBP-2:curso_rapido_python ma0$
+  [Restored Jan 31, 2019 at 8:15:38 AM]
+Last login: Thu Jan 31 08:15:38 on ttys004
+Mauricios-MacBook-Pro-2:curso_rapido_python ma0$ cd ..
+Mauricios-MacBook-Pro-2:cursos ma0$ ls
+curso_rapido_backend_java	curso_rapido_python		curso_rapido_python_backend
+Mauricios-MacBook-Pro-2:cursos ma0$ git clone https://github.com/contraslash/curso_rapido_git
+Cloning into 'curso_rapido_git'...
+remote: Enumerating objects: 74, done.
+remote: Counting objects: 100% (74/74), done.
+remote: Compressing objects: 100% (60/60), done.
+remote: Total 74 (delta 5), reused 74 (delta 5), pack-reused 0
+Unpacking objects: 100% (74/74), done.
+Mauricios-MacBook-Pro-2:cursos ma0$ conda env list
+# conda environments:
+#
+base                  *  /Users/ma0/miniconda3
+FQM                      /Users/ma0/miniconda3/envs/FQM
+agrum_pre_processing     /Users/ma0/miniconda3/envs/agrum_pre_processing
+albacora                 /Users/ma0/miniconda3/envs/albacora
+ambientevirtual3         /Users/ma0/miniconda3/envs/ambientevirtual3
+apithon_bancolombia      /Users/ma0/miniconda3/envs/apithon_bancolombia
+curso_rapido_python      /Users/ma0/miniconda3/envs/curso_rapido_python
+devhack_python_2018_i_auth     /Users/ma0/miniconda3/envs/devhack_python_2018_i_auth
+devhack_python_2018_i_groups     /Users/ma0/miniconda3/envs/devhack_python_2018_i_groups
+digitalworld             /Users/ma0/miniconda3/envs/digitalworld
+django_crud_generator     /Users/ma0/miniconda3/envs/django_crud_generator
+finantic_django          /Users/ma0/miniconda3/envs/finantic_django
+hello                    /Users/ma0/miniconda3/envs/hello
+kubespray                /Users/ma0/miniconda3/envs/kubespray
+lidar                    /Users/ma0/miniconda3/envs/lidar
+preventy                 /Users/ma0/miniconda3/envs/preventy
+saleor                   /Users/ma0/miniconda3/envs/saleor
+softcoves_fuec           /Users/ma0/miniconda3/envs/softcoves_fuec
+tpaga_simple_django      /Users/ma0/miniconda3/envs/tpaga_simple_django
+tracker                  /Users/ma0/miniconda3/envs/tracker
+
+Mauricios-MacBook-Pro-2:cursos ma0$ open /Users/ma0/miniconda3/envs/curso_rapido_python
+Mauricios-MacBook-Pro-2:cursos ma0$ conda --help
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (/Users/ma0/.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    help         Displays a list of available conda commands and their help
+                 strings.
+    info         Display information about current conda install.
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove. See conda remove --help.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version. This
+                 command accepts a list of package names and updates them to
+                 the latest versions that are compatible with all other
+                 packages in the environment. Conda attempts to install the
+                 newest versions of the requested packages. To accomplish
+                 this, it may update some packages that are already installed,
+                 or install additional packages. To prevent existing packages
+                 from updating, use the --no-update-deps option. This may
+                 force conda to install older versions of the requested
+                 packages, and it does not prevent additional dependency
+                 packages from being installed. If you wish to skip dependency
+                 checking altogether, use the '--force' option. This may
+                 result in an environment with incompatible packages, so this
+                 option must be used with great caution.
+    upgrade      Alias for conda update. See conda update --help.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  env
+Mauricios-MacBook-Pro-2:cursos ma0$ conda create --name clase2
+Mauricios-MacBook-Pro-2:cursos ma0$ conda create --name clase2
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.9
+  latest version: 4.6.1
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ma0/miniconda3/envs/clase2
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use:
+# > source activate clase2
+#
+# To deactivate an active environment, use:
+# > source deactivate
+#
+
+Mauricios-MacBook-Pro-2:cursos ma0$ source activate clase2
+(clase2) Mauricios-MacBook-Pro-2:cursos ma0$ conda env list
+# conda environments:
+#
+base                     /Users/ma0/miniconda3
+FQM                      /Users/ma0/miniconda3/envs/FQM
+agrum_pre_processing     /Users/ma0/miniconda3/envs/agrum_pre_processing
+albacora                 /Users/ma0/miniconda3/envs/albacora
+ambientevirtual3         /Users/ma0/miniconda3/envs/ambientevirtual3
+apithon_bancolombia      /Users/ma0/miniconda3/envs/apithon_bancolombia
+clase2                *  /Users/ma0/miniconda3/envs/clase2
+curso_rapido_python      /Users/ma0/miniconda3/envs/curso_rapido_python
+devhack_python_2018_i_auth     /Users/ma0/miniconda3/envs/devhack_python_2018_i_auth
+devhack_python_2018_i_groups     /Users/ma0/miniconda3/envs/devhack_python_2018_i_groups
+digitalworld             /Users/ma0/miniconda3/envs/digitalworld
+django_crud_generator     /Users/ma0/miniconda3/envs/django_crud_generator
+finantic_django          /Users/ma0/miniconda3/envs/finantic_django
+hello                    /Users/ma0/miniconda3/envs/hello
+kubespray                /Users/ma0/miniconda3/envs/kubespray
+lidar                    /Users/ma0/miniconda3/envs/lidar
+preventy                 /Users/ma0/miniconda3/envs/preventy
+saleor                   /Users/ma0/miniconda3/envs/saleor
+softcoves_fuec           /Users/ma0/miniconda3/envs/softcoves_fuec
+tpaga_simple_django      /Users/ma0/miniconda3/envs/tpaga_simple_django
+tracker                  /Users/ma0/miniconda3/envs/tracker
+
+(clase2) Mauricios-MacBook-Pro-2:cursos ma0$ conda env export
+name: clase2
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+prefix: /Users/ma0/miniconda3/envs/clase2
+
+(clase2) Mauricios-MacBook-Pro-2:cursos ma0$ conda install flask
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.9
+  latest version: 4.6.1
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /Users/ma0/miniconda3/envs/clase2
+
+  added / updated specs:
+    - flask
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libedit-3.1.20181209       |       hb402a30_0         159 KB
+    setuptools-40.6.3          |           py37_0         617 KB
+    python-3.7.2               |       haf84260_0        21.6 MB
+    ------------------------------------------------------------
+                                           Total:        22.3 MB
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2018.12.5-0
+    certifi:         2018.11.29-py37_0
+    click:           7.0-py37_0
+    flask:           1.0.2-py37_1
+    itsdangerous:    1.1.0-py37_0
+    jinja2:          2.10-py37_0
+    libcxx:          4.0.1-hcfea43d_1
+    libcxxabi:       4.0.1-hcfea43d_1
+    libedit:         3.1.20181209-hb402a30_0
+    libffi:          3.2.1-h475c297_4
+    markupsafe:      1.1.0-py37h1de35cc_0
+    ncurses:         6.1-h0a44026_1
+    openssl:         1.1.1a-h1de35cc_0
+    pip:             18.1-py37_0
+    python:          3.7.2-haf84260_0
+    readline:        7.0-h1de35cc_5
+    setuptools:      40.6.3-py37_0
+    sqlite:          3.26.0-ha441bb4_0
+    tk:              8.6.8-ha441bb4_0
+    werkzeug:        0.14.1-py37_0
+    wheel:           0.32.3-py37_0
+    xz:              5.2.4-h1de35cc_4
+    zlib:            1.2.11-h1de35cc_3
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+libedit-3.1.20181209 |  159 KB | ############################################################ | 100%
+setuptools-40.6.3    |  617 KB | ############################################################ | 100%
+python-3.7.2         | 21.6 MB | ############################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(clase2) Mauricios-MacBook-Pro-2:cursos ma0$ python
+Python 3.7.2 (default, Dec 29 2018, 00:00:04)
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> range(10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> range(10,20)
+range(10, 20)
+>>> list(range(10,20))
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+>>> list(range(10,20,2))
+[10, 12, 14, 16, 18]
+>>> list(range(10,20,2))[0]
+10
+>>> for i in range(10):
+...   print(i)
+...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> for i in list(range(10)):
+...   print(i)
+...
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+>>> b = list(range(0,n,2))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n' is not defined
+>>> b = list(range(0,20,2))
+>>> b
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+>>> n = 30
+>>> b = list(range(0,n,2))
+>>> b
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
+>>> b = list(range(1,n,2))
+>>> b
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29]
+>>> a="abcdefg"
+>>> a
+'abcdefg'
+>>> enumerate(a)
+<enumerate object at 0x10db66990>
+>>> list(enumerate(a))
+[(0, 'a'), (1, 'b'), (2, 'c'), (3, 'd'), (4, 'e'), (5, 'f'), (6, 'g')]
+>>> for index, value in enumerate(a):
+...   print("la letra {} esta en la posicion {}".format(value, index))
+...
+la letra a esta en la posicion 0
+la letra b esta en la posicion 1
+la letra c esta en la posicion 2
+la letra d esta en la posicion 3
+la letra e esta en la posicion 4
+la letra f esta en la posicion 5
+la letra g esta en la posicion 6
+>>> "hola soy" + a + "y tengo " + "asd"
+'hola soyabcdefgy tengo asd'
+>>> "hola soy {} y tengo {}".format("asd", "asdgasg")
+'hola soy asd y tengo asdgasg'
+>>> "hola soy {} y tengo {}".format("asd",)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: tuple index out of range
+>>> "hola soy {nombre} y tengo {edad}".format(nombre="Mauriico", edad="asd")
+'hola soy Mauriico y tengo asd'
+>>> "hola soy {nombre} y tengo {edad%.f} ".format(nombre="Mauriico", edad="asd")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'edad%'
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd")
+'hola soy Mauriico y tengo asd '
+>>> "hola soy {nombre} y tengo {edad.f} ".format(nombre="Mauriico", edad=2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'f'
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").capitalize()
+'Hola soy mauriico y tengo asd '
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").startswith("hola")
+True
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").startswith("adios")
+False
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").endswith("2")
+False
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").endswith("asd")
+False
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").endswith("asd ")
+True
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").trim().endswith("asd")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'trim'
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").endswith("asd"z)
+  File "<stdin>", line 1
+    "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").endswith("asd"z)
+                                                                                            ^
+SyntaxError: invalid syntax
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").endswith("asd")
+False
+>>> "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd").find("soy")
+5
+>>> "soy" in "hola soy {nombre} y tengo {edad} ".format(nombre="Mauriico", edad="asd")
+True
+>>> a = [1,2,3,4,5]
+>>> a
+[1, 2, 3, 4, 5]
+>>> "-".join(a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: sequence item 0: expected str instance, int found
+>>> "-".join(str(a))
+'[-1-,- -2-,- -3-,- -4-,- -5-]'
+>>> a = ["1","2","3","4","5"]
+>>> "-".join(str(a))
+"[-'-1-'-,- -'-2-'-,- -'-3-'-,- -'-4-'-,- -'-5-'-]"
+>>> "-".join(a)
+'1-2-3-4-5'
+>>> ",".join(a)
+'1,2,3,4,5'
+>>> b = ",".join(a)
+>>> b
+'1,2,3,4,5'
+>>> b.split(",")
+['1', '2', '3', '4', '5']
+>>> c = b.split(",")
+>>> c
+['1', '2', '3', '4', '5']
+>>> c.append("6")
+>>> c
+['1', '2', '3', '4', '5', '6']
+>>> c.pop()
+'6'
+>>> c
+['1', '2', '3', '4', '5']
+>>> c.pop()
+'5'
+>>> c
+['1', '2', '3', '4']
+>>> c.pop(0)
+'1'
+>>> c
+['2', '3', '4']
+>>> c.insert(1,"s")
+>>> c
+['2', 's', '3', '4']
+>>> c.insert(1,"s")
+KeyboardInterrupt
+>>> c[1]="2.5"
+>>> c
+['2', '2.5', '3', '4']
+>>> c.delete("2")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'delete'
+>>> c.remove("2")
+>>> c
+['2.5', '3', '4']
+>>> c.remove("23")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>> c.remove("3")
+>>> c
+['2.5', '4']
+>>> c
+['2.5', '4']
+>>> c.extend([1,2,3,4])
+>>> c
+['2.5', '4', 1, 2, 3, 4]
+>>> list(range(0,10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> map(lambda x: x**2, range(0,10))
+<map object at 0x10db67940>
+>>> list(map(lambda x: x**2, range(0,10)))
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> def cuadrado(x):
+...   return x**2
+...
+>>> list(map(cuadrado, range(0,10)))
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> a = [134,41,62,157,3732,73,7]
+>>> a
+[134, 41, 62, 157, 3732, 73, 7]
+>>> min(a)
+7
+>>> max(a)
+3732
+>>> len(a)
+7
+>>> sorted(a)
+[7, 41, 62, 73, 134, 157, 3732]
+>>> sorted(a)[0]
+7
+>>> sorted(a)[-1]
+3732
+>>> a
+[134, 41, 62, 157, 3732, 73, 7]
+>>> b = [73, 157, 2435]
+>>> a
+[134, 41, 62, 157, 3732, 73, 7]
+>>> b
+[73, 157, 2435]
+>>> set(a).intersection(set(b))
+{73, 157}
+>>> set(a).intersection(b)
+{73, 157}
+>>> set(a).union(b)
+{73, 2435, 3732, 134, 7, 41, 157, 62}
+>>> set(a).difference(b)
+{3732, 134, 7, 41, 62}
+>>> a = "ana,marcela,david,mariana"
+>>> a.split(",")
+['ana', 'marcela', 'david', 'mariana']
+>>> b = a.split(",")
+>>> len(b)
+4
+>>> b.count()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: count() takes exactly one argument (0 given)
+>>> b.count("ana")
+1
+>>> len(b)
+4
+>>> enumerate(b)
+<enumerate object at 0x10db66af8>
+>>> list(enumerate(b))
+[(0, 'ana'), (1, 'marcela'), (2, 'david'), (3, 'mariana')]
+>>> import random
+>>> random.randint()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: randint() missing 2 required positional arguments: 'a' and 'b'
+>>> random.randint
+<bound method Random.randint of <random.Random object at 0x7fc6d881a618>>
+>>> random.randint(1,10)
+5
+>>> random.choice(b)
+'david'
+>>> random.choice(b)
+'ana'
+>>> random.choice(b)
+'david'
+>>> random.choice(b)
+'david'
+>>> random.choice(b)
+'ana'
+>>> random.choice(b)
+'marcela'
+>>> random.choice(b)
+'david'
+>>> random.choice(b)
+'marcela'
+>>> a = "ana,marcela,david,mariana,ana,ana"
+>>> a
+'ana,marcela,david,mariana,ana,ana'
+>>> b = a.split(",")
+>>> b
+['ana', 'marcela', 'david', 'mariana', 'ana', 'ana']
+>>> set(b)
+{'marcela', 'ana', 'david', 'mariana'}
+>>> list(set(b))
+['marcela', 'ana', 'david', 'mariana']
+>>> set(b)
+{'marcela', 'ana', 'david', 'mariana'}
+>>> set(b)[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object does not support indexing
+>>> [x for x in set(b)]
+['marcela', 'ana', 'david', 'mariana']
+>>> c = [x for x in set(b)]
+>>> c.append("mauricio")
+>>> c
+['marcela', 'ana', 'david', 'mariana', 'mauricio']
+>>> tuple(c)
+('marcela', 'ana', 'david', 'mariana', 'mauricio')
+>>> d=tuple(c)
+>>> d
+('marcela', 'ana', 'david', 'mariana', 'mauricio')
+>>> d.append("alfredo")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'append'
+>>> e = list(d)
+>>> e.append("alfredo")
+>>> e
+['marcela', 'ana', 'david', 'mariana', 'mauricio', 'alfredo']
+>>> f = tuple(e)
+>>> f
+('marcela', 'ana', 'david', 'mariana', 'mauricio', 'alfredo')
+>>> for a in f:
+...   print(a.capitalize())
+...
+Marcela
+Ana
+David
+Mariana
+Mauricio
+Alfredo
+>>> for a in f:
+...   print(a.upper())
+...
+MARCELA
+ANA
+DAVID
+MARIANA
+MAURICIO
+ALFREDO
+>>>   print(a.upper().lower())
+  File "<stdin>", line 1
+    print(a.upper().lower())
+    ^
+IndentationError: unexpected indent
+>>> for a in f:
+...   print(a.upper().lower())
+...
+marcela
+ana
+david
+mariana
+mauricio
+alfredo
+>>> a = f[0]
+>>> b = f[-1]
+>>> a
+'marcela'
+>>> b
+'alfredo'
+>>> f
+('marcela', 'ana', 'david', 'mariana', 'mauricio', 'alfredo')
+>>> a,b = f[0],f[-1]
+>>> a
+'marcela'
+>>> b
+'alfredo'
+>>> a,c, =
+KeyboardInterrupt
+>>> d = len(f)
+KeyboardInterrupt
+>>> len(f)
+6
+>>> print([1:-1])
+  File "<stdin>", line 1
+    print([1:-1])
+            ^
+SyntaxError: invalid syntax
+>>> print(f[1:-1])
+('ana', 'david', 'mariana', 'mauricio')
+>>> f[1:-1]
+('ana', 'david', 'mariana', 'mauricio')
+>>> f[len(f)/2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: tuple indices must be integers or slices, not float
+>>> f[int(len(f)/2)]
+'mariana'
+>>> f
+('marcela', 'ana', 'david', 'mariana', 'mauricio', 'alfredo')
+>>> a,*b,c = f
+>>> a
+'marcela'
+>>> c
+'alfredo'
+>>> b
+['ana', 'david', 'mariana', 'mauricio']
+>>> a,*b,c,d = f
+>>> b
+['ana', 'david', 'mariana']
+>>> c
+'mauricio'
+>>> d
+'alfredo'
+>>> a,*b,c,d = f
+>>> f
+('marcela', 'ana', 'david', 'mariana', 'mauricio', 'alfredo')
+>>> a
+'marcela'
+>>> d
+'alfredo'
+>>> c
+'mauricio'
+>>> b
+['ana', 'david', 'mariana']
+>>> a,b,c,d = f
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: too many values to unpack (expected 4)
+>>> a,b,*c,d = f
+>>> a
+'marcela'
+>>> b
+'ana'
+>>> c
+['david', 'mariana', 'mauricio']
+>>> f
+('marcela', 'ana', 'david', 'mariana', 'mauricio', 'alfredo')
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> [x for x in range(10)]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> [x+3 for x in range(10)]
+[3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+>>> ["hola {}".format(x) for x in range(10)]
+['hola 0', 'hola 1', 'hola 2', 'hola 3', 'hola 4', 'hola 5', 'hola 6', 'hola 7', 'hola 8', 'hola 9']
+>>> for x in range(10):
+...
+KeyboardInterrupt
+>>> a = list()
+>>> for x in range(10):
+...   a.append("hola {}".format(x))
+...
+>>> a
+['hola 0', 'hola 1', 'hola 2', 'hola 3', 'hola 4', 'hola 5', 'hola 6', 'hola 7', 'hola 8', 'hola 9']
+>>> ["hola {}".format(x) for x in range(10) if x%2 ==0]
+['hola 0', 'hola 2', 'hola 4', 'hola 6', 'hola 8']
+>>>
+>>>
