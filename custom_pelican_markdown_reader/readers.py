@@ -48,7 +48,6 @@ class CustomMarkdownReader(BaseReader):
 
     def read(self, source_path):
         """Parse content and metadata of markdown files"""
-
         self._source_path = source_path
 
         with pelican_open(source_path) as text:

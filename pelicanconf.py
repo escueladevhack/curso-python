@@ -50,11 +50,22 @@ THEME = os.path.join(
     'remark'
 )
 
+MARKUP = ('md', 'ipynb')
+IPYNB_EXPORT_TEMPLATE = os.path.join(THEME, "templates", "ipynb.html")
+
 READERS = {
-    "md": CustomMarkdownReader
+    "md": CustomMarkdownReader,
 }
+
+# DIRECT_TEMPLATES = ["ipynb"]
+# PAGINATED_DIRECT_TEMPLATES = ["ipynb"]
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb.markup']
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 ARTICLE_ORDER_BY = "date"
 PAGE_ORDER_BY = "date"
+IGNORE_FILES = [".ipynb_checkpoints"]
+IPYNB_USE_METACELL = True
