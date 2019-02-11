@@ -38,3 +38,14 @@ python3 -m http.server
 ```
 
 
+Para sincronizar
+
+```bash
+cd output
+aws s3 sync . s3://curso-rapido-python.contraslash.com
+```
+
+
+Referencias proyecto
+
+-[](https://towardsdatascience.com/pandas-tips-and-tricks-33bcc8a40bb9)
