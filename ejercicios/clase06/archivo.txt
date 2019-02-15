@@ -1,0 +1,3 @@
+Este es un archivo txt
+Contiene muchas lineas
+de formato texto separadas por el separador \n

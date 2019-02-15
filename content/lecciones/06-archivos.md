@@ -1,0 +1,141 @@
+Title: Archivos
+Author: Mauricio Collazos
+Date: 2019-02-15
+![]()
+---
+class: center, middle, light, first-slide
+# Archivos
+## Mauricio Collazos
+.footnote[]
+---
+class: light
+# Operaciones I/O
+```python
+nombre = input("Escriba su nombre: ")
+edad = input("Escriba su edad: ")
+print("Mi nombre es {nombre}, y tengo {edad} años".format(nombre="Mauricio", edad=24))
+```
+
+---
+# Lectura y escritura de archivos
+
+```python
+
+with open("archivo.txt") as f:
+    contenido = f.read()
+
+with open("nuevo_archivo.txt", "w+") as f:
+    f.write("archivo guardado")
+    f.write("desde python")
+```
+---
+# Modos de lectura
+Caracter|Significado
+-|-
+r|Lectura
+w|Escritura
+x|Creación (solo si no existe)
+a|Añadir contenido
+b|Modo binario
+t|Modo de texto (viene por defecto)
++|Leer, escribir y crear
+
+---
+# Archivos json
+```python
+import json
+with open("documento.json") as f:
+    contenido = (json.load(f))
+```
+
+
+```python
+mi_diccionario = {
+    "llave": "valor",
+    "mas_llaves": 123
+}
+with open("nuevo_documento.json", "w+") as f:
+    json.dump(mi_diccionario, f)
+```
+
+
+---
+# Archivos csv
+
+```python
+import csv
+
+with open("archivo.csv") as f:
+    lector = csv.reader(f)
+    for fila in lector:
+        print(fila)
+```
+
+
+```python
+with open("nuevo_archivo.csv", "w+") as f:
+    escritor = csv.writer(f)
+    escritor.writerow(["nombre", "apellido", "edad"])
+    escritor.writerow(["Julian", "Camargo", "29"])
+    escritor.writerow(["Javier", "Madroñero", "45"])
+```
+
+---
+# DictReader / DictWriter
+
+```python
+import csv
+encabezados = ["nombre", "apellido", "edad"]
+with open("archivo.csv") as f:
+    lector = csv.DictReader(f, encabezados)
+    # Como ya definimos los encabezados, nos saltamos la primera línea
+    next(lector)
+    for fila in lector:
+        print(fila)
+```
+
+```python
+encabezados = ["nombre", "apellido", "edad"]
+with open("nuevo_archivo.csv", "w+") as f:
+    escritor = csv.DictWriter(f, encabezados)
+    escritor.writeheader()
+    escritor.writerow({"nombre": "Alberto", "edad": 43})
+    escritor.writerow({"nombre": "Julian", "apellido": "Camargo", "edad": 29})
+    escritor.writerow({"apellido": "Madroñero", "edad": 45})
+```
+
+---
+# Pickle
+
+```python
+import pickle
+diccionario_multitipo = {
+    "entero": 1,
+    "flotante": 1.5,
+    "imaginario": 1+1j,
+    "cadena": "cadena de caracteres",
+    "tupla": (1,2,3,4),
+    "lista": [1,2,3,4],
+    "conjunto": {1,2,3,4},
+    "diccionario": {
+        "llave": "valor"
+    }
+}
+
+with open("diccionario_complejo.pickle", "wb+") as f:
+    pickle.dump(diccionario_multitipo, f)
+
+```
+
+```
+with open("diccionario_complejo.pickle", "rb") as f:
+    contenido = pickle.load(f)
+```
+
+---
+# Ejercicios
+- Cree un programa que lea las primeras n líneas de un archivo
+- Cree un programa que lea las últimas n líneas de un archivo
+- Cree un programa que lea desde un archivo una lista de números y guarde un archivo con los núeros ordenados
+- Cree un programa que elimine las líneas en blanco de un archivo
+- Cree un programa que calcule la función de probabilidad de un n-grama en un texto y guarde esta función de probabilidad
