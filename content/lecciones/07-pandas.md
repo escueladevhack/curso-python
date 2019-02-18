@@ -1,0 +1,203 @@
+Title: Pandas
+Author: Mauricio Collazos
+Date: 2019-02-18
+![]()
+---
+class: center, middle, light, first-slide
+# Pandas
+## Mauricio Collazos
+.footnote[]
+---
+class: light
+# Pandas
+
+Librería de alto nivel para trabajar con Dataframes, estructuras
+eficientes para el tratamiento de matrices dispersas heterogeneas
+
+```bash
+conda install pandas
+```
+
+---
+# Series
+
+Funcionamiento como arreglos
+```python
+import pandas as pd
+datos = pd.Series([0.25, 0.5, 0.75, 1.0])
+datos[0]
+datos[0:3]
+```
+
+Pero nombrados, como diccionarios
+
+```python
+datos = pd.Series(
+    [0.25, 0.5, 0.75, 1.0],
+    index=['a', 'b', 'c', 'd']
+)
+
+datos["a":"c"]
+```
+
+---
+# Dataframe
+Mecanismo para tratar series eficientemente como datos tabulares
+
+```python
+poblacion_dict = {
+    'California': 38332521, 'Texas': 26448193,'New York': 19651127,'Florida': 19552860,'Illinois': 12882135
+}
+
+poblacion = pd.Series(population_dict)
+
+area_dict = {
+    'California': 423967,'Texas': 695662,'New York': 141297,'Florida': 170312,'Illinois': 149995
+}
+
+area = pd.Series(area_dict)
+
+estados = pd.DataFrame(
+    {
+        'poblacion': population,
+        'area': area
+    }
+)
+
+```
+
+---
+# Breve introducción a numpy
+
+```python
+import numpy as np
+a = np.array([1,2,3,4])
+b = np.ones(4)
+c = np.zeros(4)
+
+a + 1 # Que pasa si sumamos un arreglo con un escalar?
+a + b # O si sumamos dos arreglos?
+# Y si queremos hacer filtros sobre los arreglos?
+a[a>2]
+```
+
+---
+# Operaciones Element-Wise en pandas
+
+Operaciones que se realizan elemento a elemento
+suma, resta, multiplicación y división
+
+```python
+estados["densidad"] = estados["poblacion"] / estados["area"]
+```
+
+```python
+estados[estados["densidad"] > 100]
+estados.loc[estados["densidad"] > 100, ["poblacion", "area"]]
+```
+
+---
+# Datos faltantes
+
+```python
+area = pd.Series(
+    {'Alaska': 1723337, 'Texas': 695662,'California': 423967},
+)
+
+poblacion = pd.Series(
+    {'California': 38332521, 'Texas': 26448193,'New York': 19651127},
+)
+
+nuevos_estados = pd.DataFrame({"area": area, "poblacion":poblacion})
+nuevos_estados.dropna(0)
+nuevos_estados.fillna(0)
+nuevos_estados["poblacion"].mean()
+nuevos_estados["poblacion"].min()
+nuevos_estados["poblacion"].max()
+```
+
+---
+# Concatenando dataframes
+
+```python
+pd.concat([estados, nuevos_estados])
+try:
+    pd.concat([estados, nuevos_estados], verify_integrity=True)
+except ValueError as e:
+    print("Value Error: {}".format(e))
+pd.concat([estados, nuevos_estados], ignore_index=True)
+pd.concat([estados, nuevos_estados], keys(["estados", "nuevos_estados"])
+```
+
+---
+# Agregaciones
+
+Agregador|Descripción
+-|-
+count|Cuenta los elementos
+first|Primer elemento
+last|Último elemento
+mean|Promedio
+median|Mediana
+min|Mínimo
+max|Máximo
+std|Desviación estándar
+var|varianza
+mad|Desviación promedio
+prod|Productoria de todos los elementos
+sum|Sumatoria de todos los elementos
+```python
+generador_aleatorios = np.random.RandomState(42)
+dataframe = pd.DataFrame(
+    {'A': generador_aleatorios.rand(5),
+     'B': generador_aleatorios.rand(5)})
+```
+
+---
+# Agrupamiento
+```python
+dataframe = pd.DataFrame(
+    {'llave': ['A', 'B', 'C', 'A', 'B', 'C'],
+     'datos': range(6)},
+     columns=['llave', 'datos']
+)
+dataframe.groupby("llave").sum()
+dataframe.groupby("llave").aggregate([min, max])
+```
+---
+# Dataset
+
+```csv
+animal,identificador,agua_que_necesita
+elefante,1001,500
+elefante,1002,600
+elefante,1003,550
+tigre,1004,300
+tigre,1005,320
+tigre,1006,330
+tigre,1007,290
+tigre,1008,310
+cebra,1009,200
+cebra,1010,220
+cebra,1011,240
+cebra,1012,230
+cebra,1013,220
+cebra,1014,100
+cebra,1015,80
+leon,1016,420
+leon,1017,600
+leon,1018,500
+leon,1019,390
+canguro,1020,410
+canguro,1021,430
+canguro,1022,410
+```
+
+---
+# Ejercicios
+- Instale pandas y jupyter
+- Cree un archivo CSV con el contenido del dataset
+- Lear el archivo del dataset
+- Cuales son los litros promedio de agua que necesitan los animales?
+- Cuál es el animal que mas litros de agua necesite
+- Agrupe el promedio de agua necesitada por cada animal según su especie
