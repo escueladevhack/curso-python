@@ -127,7 +127,7 @@ with open("diccionario_complejo.pickle", "wb+") as f:
 
 ```
 
-```
+```python
 with open("diccionario_complejo.pickle", "rb") as f:
     contenido = pickle.load(f)
 ```
