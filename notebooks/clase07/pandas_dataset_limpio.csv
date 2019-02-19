@@ -1,0 +1,1796 @@
+,ubicacion,pais,favorito
+0,North America,country_7,SEO
+1,South America,country_7,SEO
+2,Africa,country_7,AdWords
+3,Europe,country_7,AdWords
+4,North America,country_8,Reddit
+5,North America,country_6,Reddit
+6,Europe,country_2,Reddit
+7,Europe,country_6,AdWords
+8,North America,country_7,AdWords
+9,North America,country_5,Reddit
+10,Asia,country_5,AdWords
+11,Australia,country_7,SEO
+12,Asia,country_5,Reddit
+13,Europe,country_2,Reddit
+14,Africa,country_7,Reddit
+15,North America,country_7,SEO
+16,North America,country_8,SEO
+17,Asia,country_2,Reddit
+18,North America,country_4,SEO
+19,Asia,country_2,Reddit
+20,Asia,country_2,Reddit
+21,Africa,country_7,Reddit
+22,Europe,country_2,AdWords
+23,Asia,country_2,Reddit
+24,Africa,country_7,Reddit
+25,North America,country_2,AdWords
+26,North America,country_5,SEO
+27,North America,country_2,SEO
+28,Asia,country_2,Reddit
+29,Asia,country_7,Reddit
+30,North America,country_6,SEO
+31,Australia,country_7,Reddit
+32,South America,country_7,Reddit
+33,Australia,country_7,Reddit
+34,North America,country_2,Reddit
+35,South America,country_6,Reddit
+36,Asia,country_6,AdWords
+37,Europe,country_7,AdWords
+38,Asia,country_5,Reddit
+39,Asia,country_7,Reddit
+40,Europe,country_7,Reddit
+41,Asia,country_5,SEO
+42,Asia,country_4,Reddit
+43,Asia,country_7,Reddit
+44,Asia,country_2,Reddit
+45,Asia,country_8,AdWords
+46,North America,country_6,Reddit
+47,Europe,country_5,AdWords
+48,Asia,country_2,Reddit
+49,South America,country_7,Reddit
+50,Asia,country_6,Reddit
+51,Europe,country_6,AdWords
+52,Africa,country_3,Reddit
+53,Asia,country_2,Reddit
+54,North America,country_5,SEO
+55,Asia,country_5,Reddit
+56,North America,country_7,SEO
+57,Europe,country_2,SEO
+58,North America,country_7,AdWords
+59,Asia,country_8,Reddit
+60,North America,country_7,SEO
+61,Australia,country_7,AdWords
+62,Asia,country_6,SEO
+63,Australia,country_7,Reddit
+64,North America,country_5,Reddit
+65,North America,country_5,Reddit
+66,Asia,country_6,AdWords
+67,Asia,country_5,Reddit
+68,Africa,country_7,AdWords
+69,Europe,country_5,SEO
+70,South America,country_2,Reddit
+71,Asia,country_2,AdWords
+72,North America,country_8,SEO
+73,North America,country_2,SEO
+74,Asia,country_8,Reddit
+75,North America,country_6,Reddit
+76,Asia,country_7,Reddit
+77,Africa,country_4,SEO
+78,Africa,country_8,Reddit
+79,Asia,country_5,Reddit
+80,Africa,country_4,SEO
+81,North America,country_7,SEO
+82,Africa,country_2,Reddit
+83,South America,country_2,SEO
+84,Europe,country_7,AdWords
+85,Asia,country_8,Reddit
+86,Asia,country_7,Reddit
+87,Australia,country_6,SEO
+88,Asia,country_5,Reddit
+89,Europe,country_7,AdWords
+90,Europe,country_1,AdWords
+91,North America,country_7,SEO
+92,Asia,country_7,AdWords
+93,Asia,country_5,Reddit
+94,Asia,country_8,AdWords
+95,Africa,country_6,Reddit
+96,Asia,country_7,AdWords
+97,North America,country_2,SEO
+98,Asia,country_4,SEO
+99,Europe,country_2,AdWords
+100,Asia,country_6,Reddit
+101,Asia,country_5,AdWords
+102,South America,country_8,Reddit
+103,Asia,country_5,Reddit
+104,Europe,country_6,Reddit
+105,Asia,country_5,Reddit
+106,North America,country_5,SEO
+107,Asia,country_2,Reddit
+108,Asia,country_2,Reddit
+109,Asia,country_7,Reddit
+110,Africa,country_2,SEO
+111,South America,country_5,Reddit
+112,Africa,country_5,Reddit
+113,South America,country_5,Reddit
+114,North America,country_7,SEO
+115,North America,country_2,AdWords
+116,Australia,country_2,Reddit
+117,Asia,country_2,Reddit
+118,Europe,country_2,AdWords
+119,Asia,country_7,Reddit
+120,North America,country_6,Reddit
+121,South America,country_2,AdWords
+122,North America,country_5,AdWords
+123,Europe,country_3,AdWords
+124,Africa,country_2,Reddit
+125,South America,country_2,SEO
+126,Africa,country_5,Reddit
+127,South America,country_3,AdWords
+128,Asia,country_8,Reddit
+129,North America,country_2,Reddit
+130,South America,country_5,AdWords
+131,North America,country_6,SEO
+132,South America,country_5,AdWords
+133,Europe,country_8,AdWords
+134,Africa,country_7,Reddit
+135,Europe,country_2,Reddit
+136,South America,country_7,AdWords
+137,North America,country_5,SEO
+138,Africa,country_2,Reddit
+139,Europe,country_8,Reddit
+140,North America,country_2,SEO
+141,Asia,country_6,Reddit
+142,Asia,country_5,Reddit
+143,Africa,country_5,Reddit
+144,Europe,country_5,AdWords
+145,Asia,country_6,Reddit
+146,Asia,country_6,Reddit
+147,North America,country_2,SEO
+148,Asia,country_2,AdWords
+149,North America,country_5,AdWords
+150,Asia,country_5,Reddit
+151,North America,country_2,SEO
+152,North America,country_6,Reddit
+153,Australia,country_2,SEO
+154,North America,country_6,SEO
+155,Asia,country_5,Reddit
+156,Asia,country_2,Reddit
+157,South America,country_5,SEO
+158,Europe,country_5,AdWords
+159,Australia,country_5,Reddit
+160,South America,country_8,Reddit
+161,Europe,country_7,SEO
+162,North America,country_2,SEO
+163,Australia,country_7,Reddit
+164,Asia,country_6,Reddit
+165,Europe,country_2,AdWords
+166,Asia,country_5,AdWords
+167,Africa,country_2,Reddit
+168,South America,country_2,Reddit
+169,North America,country_2,Reddit
+170,Europe,country_5,AdWords
+171,Asia,country_7,Reddit
+172,Asia,country_2,Reddit
+173,Asia,country_5,Reddit
+174,South America,country_2,Reddit
+175,Europe,country_1,AdWords
+176,Asia,country_6,AdWords
+177,Asia,country_7,Reddit
+178,Asia,country_6,Reddit
+179,Asia,country_5,Reddit
+180,Asia,country_7,Reddit
+181,Asia,country_7,AdWords
+182,Africa,country_7,Reddit
+183,South America,country_7,AdWords
+184,Europe,country_7,AdWords
+185,Africa,country_7,AdWords
+186,Asia,country_8,Reddit
+187,South America,country_6,Reddit
+188,Australia,country_6,SEO
+189,Europe,country_2,AdWords
+190,Australia,country_7,AdWords
+191,Asia,country_2,Reddit
+192,Europe,country_5,AdWords
+193,Asia,country_5,AdWords
+194,North America,country_6,SEO
+195,North America,country_2,SEO
+196,Asia,country_7,Reddit
+197,Asia,country_2,Reddit
+198,South America,country_5,Reddit
+199,South America,country_7,Reddit
+200,Asia,country_2,Reddit
+201,North America,country_6,SEO
+202,South America,country_8,AdWords
+203,Asia,country_2,Reddit
+204,Africa,country_7,Reddit
+205,Europe,country_2,AdWords
+206,Asia,country_7,Reddit
+207,Asia,country_2,SEO
+208,Asia,country_6,Reddit
+209,Asia,country_7,Reddit
+210,North America,country_6,SEO
+211,Africa,country_7,Reddit
+212,North America,country_2,SEO
+213,Europe,country_5,AdWords
+214,North America,country_2,SEO
+215,Asia,country_2,Reddit
+216,Europe,country_2,Reddit
+217,South America,country_2,Reddit
+218,Asia,country_5,Reddit
+219,Asia,country_2,Reddit
+220,Europe,country_5,SEO
+221,Australia,country_2,AdWords
+222,South America,country_2,Reddit
+223,Australia,country_3,Reddit
+224,Asia,country_2,Reddit
+225,Asia,country_2,Reddit
+226,North America,country_6,Reddit
+227,Australia,country_6,AdWords
+228,Asia,country_6,SEO
+229,South America,country_1,Reddit
+230,Asia,country_4,Reddit
+231,Asia,country_6,Reddit
+232,Asia,country_7,Reddit
+233,North America,country_6,SEO
+234,Asia,country_7,AdWords
+235,North America,country_7,SEO
+236,North America,country_6,Reddit
+237,Asia,country_7,Reddit
+238,Australia,country_2,AdWords
+239,North America,country_5,SEO
+240,Europe,country_8,AdWords
+241,Asia,country_8,Reddit
+242,Australia,country_6,AdWords
+243,South America,country_8,Reddit
+244,Europe,country_7,AdWords
+245,South America,country_3,Reddit
+246,Europe,country_2,AdWords
+247,Europe,country_5,AdWords
+248,North America,country_7,SEO
+249,Asia,country_2,Reddit
+250,South America,country_4,Reddit
+251,South America,country_5,AdWords
+252,North America,country_8,Reddit
+253,Asia,country_2,Reddit
+254,Asia,country_7,Reddit
+255,North America,country_7,Reddit
+256,Asia,country_7,Reddit
+257,Asia,country_2,Reddit
+258,Asia,country_2,Reddit
+259,Europe,country_2,Reddit
+260,Europe,country_5,AdWords
+261,South America,country_2,AdWords
+262,Asia,country_5,Reddit
+263,North America,country_6,Reddit
+264,Asia,country_4,Reddit
+265,Europe,country_6,AdWords
+266,Asia,country_6,Reddit
+267,Asia,country_7,AdWords
+268,Asia,country_7,Reddit
+269,Asia,country_7,Reddit
+270,Asia,country_7,Reddit
+271,Asia,country_8,Reddit
+272,Africa,country_5,Reddit
+273,Asia,country_5,Reddit
+274,South America,country_7,SEO
+275,Europe,country_5,AdWords
+276,Europe,country_7,AdWords
+277,Africa,country_5,Reddit
+278,North America,country_2,SEO
+279,Asia,country_7,Reddit
+280,Africa,country_7,Reddit
+281,Europe,country_5,Reddit
+282,Europe,country_5,Reddit
+283,Asia,country_1,Reddit
+284,Asia,country_8,Reddit
+285,Asia,country_2,AdWords
+286,Africa,country_2,Reddit
+287,Africa,country_2,Reddit
+288,Asia,country_1,AdWords
+289,Asia,country_6,Reddit
+290,South America,country_6,AdWords
+291,Africa,country_6,AdWords
+292,North America,country_5,AdWords
+293,Asia,country_2,Reddit
+294,Asia,country_4,AdWords
+295,Asia,country_8,SEO
+296,Europe,country_7,SEO
+297,Australia,country_7,AdWords
+298,Asia,country_2,Reddit
+299,Asia,country_7,Reddit
+300,South America,country_7,SEO
+301,North America,country_5,AdWords
+302,Asia,country_2,Reddit
+303,Australia,country_2,Reddit
+304,Asia,country_1,Reddit
+305,Asia,country_7,Reddit
+306,Asia,country_7,Reddit
+307,Asia,country_6,Reddit
+308,Asia,country_8,AdWords
+309,Asia,country_1,AdWords
+310,Europe,country_7,Reddit
+311,North America,country_6,SEO
+312,South America,country_7,Reddit
+313,Asia,country_7,Reddit
+314,Asia,country_2,Reddit
+315,Europe,country_2,AdWords
+316,North America,country_5,Reddit
+317,Europe,country_2,AdWords
+318,North America,country_2,Reddit
+319,Africa,country_8,Reddit
+320,Asia,country_7,Reddit
+321,North America,country_5,SEO
+322,North America,country_3,AdWords
+323,Africa,country_8,Reddit
+324,Asia,country_5,SEO
+325,Asia,country_6,Reddit
+326,Asia,country_7,Reddit
+327,Europe,country_5,Reddit
+328,North America,country_2,SEO
+329,Europe,country_8,AdWords
+330,Africa,country_2,SEO
+331,Asia,country_7,Reddit
+332,Asia,country_5,Reddit
+333,Europe,country_6,AdWords
+334,Asia,country_8,Reddit
+335,Asia,country_5,AdWords
+336,North America,country_1,AdWords
+337,Europe,country_7,AdWords
+338,Australia,country_7,Reddit
+339,Asia,country_5,Reddit
+340,Asia,country_5,Reddit
+341,South America,country_2,AdWords
+342,Australia,country_2,Reddit
+343,Australia,country_2,AdWords
+344,Africa,country_6,Reddit
+345,Europe,country_7,Reddit
+346,Asia,country_2,Reddit
+347,Africa,country_2,SEO
+348,South America,country_6,AdWords
+349,Asia,country_7,Reddit
+350,Africa,country_2,AdWords
+351,Asia,country_2,Reddit
+352,Europe,country_7,Reddit
+353,South America,country_4,SEO
+354,Asia,country_5,Reddit
+355,Asia,country_4,Reddit
+356,Asia,country_4,Reddit
+357,South America,country_5,Reddit
+358,Asia,country_2,SEO
+359,South America,country_8,Reddit
+360,South America,country_2,Reddit
+361,North America,country_7,Reddit
+362,Asia,country_6,Reddit
+363,North America,country_2,Reddit
+364,Europe,country_6,AdWords
+365,Europe,country_2,Reddit
+366,Asia,country_2,Reddit
+367,Asia,country_5,Reddit
+368,Australia,country_4,Reddit
+369,Africa,country_8,Reddit
+370,South America,country_7,Reddit
+371,South America,country_2,SEO
+372,Asia,country_5,AdWords
+373,North America,country_6,SEO
+374,Europe,country_5,AdWords
+375,South America,country_6,SEO
+376,Africa,country_3,Reddit
+377,Europe,country_7,Reddit
+378,Australia,country_7,Reddit
+379,Australia,country_5,Reddit
+380,Asia,country_4,AdWords
+381,North America,country_1,SEO
+382,Europe,country_2,AdWords
+383,North America,country_1,SEO
+384,Asia,country_2,Reddit
+385,Europe,country_4,Reddit
+386,Asia,country_5,Reddit
+387,Asia,country_6,Reddit
+388,Asia,country_2,Reddit
+389,Asia,country_5,Reddit
+390,Europe,country_8,AdWords
+391,Europe,country_7,Reddit
+392,Asia,country_7,Reddit
+393,Asia,country_7,Reddit
+394,North America,country_7,SEO
+395,Asia,country_6,Reddit
+396,Asia,country_5,Reddit
+397,Europe,country_7,AdWords
+398,Asia,country_2,Reddit
+399,Asia,country_2,Reddit
+400,Asia,country_4,AdWords
+401,North America,country_2,SEO
+402,Asia,country_2,AdWords
+403,Asia,country_8,AdWords
+404,North America,country_2,SEO
+405,North America,country_2,Reddit
+406,Asia,country_6,Reddit
+407,North America,country_2,AdWords
+408,Asia,country_2,Reddit
+409,Asia,country_2,Reddit
+410,South America,country_5,Reddit
+411,Asia,country_5,Reddit
+412,Europe,country_7,AdWords
+413,Australia,country_1,AdWords
+414,Asia,country_7,Reddit
+415,Asia,country_2,AdWords
+416,North America,country_7,Reddit
+417,Asia,country_2,Reddit
+418,South America,country_7,Reddit
+419,Asia,country_1,AdWords
+420,Europe,country_2,Reddit
+421,Asia,country_2,SEO
+422,Asia,country_5,Reddit
+423,Europe,country_5,AdWords
+424,Europe,country_5,SEO
+425,Asia,country_7,Reddit
+426,Asia,country_7,Reddit
+427,Africa,country_2,SEO
+428,South America,country_5,Reddit
+429,Asia,country_6,Reddit
+430,Europe,country_8,Reddit
+431,Asia,country_8,AdWords
+432,South America,country_5,Reddit
+433,North America,country_8,Reddit
+434,North America,country_7,SEO
+435,Asia,country_2,Reddit
+436,Africa,country_6,Reddit
+437,North America,country_5,SEO
+438,Asia,country_2,AdWords
+439,North America,country_7,AdWords
+440,South America,country_5,Reddit
+441,South America,country_8,SEO
+442,Australia,country_2,Reddit
+443,Asia,country_7,Reddit
+444,Asia,country_5,Reddit
+445,Asia,country_5,Reddit
+446,Asia,country_2,Reddit
+447,Asia,country_2,Reddit
+448,Africa,country_2,Reddit
+449,North America,country_8,SEO
+450,Europe,country_2,AdWords
+451,Australia,country_6,Reddit
+452,South America,country_2,SEO
+453,Asia,country_3,Reddit
+454,Asia,country_7,AdWords
+455,Europe,country_7,SEO
+456,South America,country_7,AdWords
+457,Asia,country_6,AdWords
+458,Asia,country_7,Reddit
+459,Asia,country_7,AdWords
+460,South America,country_7,Reddit
+461,Asia,country_7,Reddit
+462,Europe,country_7,Reddit
+463,Europe,country_5,AdWords
+464,Asia,country_8,Reddit
+465,Asia,country_7,AdWords
+466,Asia,country_6,Reddit
+467,Australia,country_6,AdWords
+468,Asia,country_7,Reddit
+469,North America,country_5,SEO
+470,North America,country_7,Reddit
+471,Europe,country_2,AdWords
+472,Asia,country_6,Reddit
+473,Asia,country_6,Reddit
+474,South America,country_2,SEO
+475,Europe,country_2,Reddit
+476,Africa,country_6,AdWords
+477,South America,country_2,Reddit
+478,Asia,country_7,AdWords
+479,North America,country_2,SEO
+480,South America,country_6,Reddit
+481,Asia,country_7,AdWords
+482,Asia,country_2,Reddit
+483,Europe,country_7,Reddit
+484,Asia,country_2,AdWords
+485,Europe,country_5,AdWords
+486,Asia,country_2,Reddit
+487,Asia,country_7,Reddit
+488,Asia,country_2,Reddit
+489,Europe,country_7,Reddit
+490,Asia,country_5,AdWords
+491,Asia,country_2,SEO
+492,South America,country_7,Reddit
+493,Africa,country_2,SEO
+494,Asia,country_5,Reddit
+495,South America,country_5,Reddit
+496,Asia,country_4,Reddit
+497,Asia,country_7,Reddit
+498,Australia,country_2,Reddit
+499,North America,country_8,SEO
+500,Asia,country_2,AdWords
+501,North America,country_2,SEO
+502,Asia,country_7,Reddit
+503,Europe,country_7,AdWords
+504,Africa,country_2,Reddit
+505,North America,country_7,AdWords
+506,Africa,country_5,Reddit
+507,North America,country_6,SEO
+508,Africa,country_2,Reddit
+509,Asia,country_2,AdWords
+510,Europe,country_4,AdWords
+511,Asia,country_8,Reddit
+512,Asia,country_6,Reddit
+513,South America,country_5,AdWords
+514,Asia,country_2,AdWords
+515,North America,country_4,Reddit
+516,South America,country_8,Reddit
+517,Europe,country_2,AdWords
+518,Africa,country_5,SEO
+519,Australia,country_5,SEO
+520,North America,country_2,Reddit
+521,South America,country_6,SEO
+522,North America,country_7,Reddit
+523,North America,country_7,Reddit
+524,Europe,country_8,AdWords
+525,Europe,country_2,Reddit
+526,Asia,country_6,Reddit
+527,North America,country_5,SEO
+528,Europe,country_5,AdWords
+529,Asia,country_6,Reddit
+530,Europe,country_6,SEO
+531,Asia,country_5,AdWords
+532,North America,country_2,Reddit
+533,South America,country_7,SEO
+534,Asia,country_7,AdWords
+535,Asia,country_7,Reddit
+536,Africa,country_5,Reddit
+537,North America,country_6,SEO
+538,Australia,country_7,Reddit
+539,Asia,country_2,Reddit
+540,North America,country_8,SEO
+541,South America,country_2,AdWords
+542,North America,country_2,SEO
+543,Africa,country_7,Reddit
+544,North America,country_2,Reddit
+545,South America,country_5,AdWords
+546,Europe,country_7,Reddit
+547,Asia,country_5,Reddit
+548,North America,country_5,Reddit
+549,Asia,country_6,Reddit
+550,Europe,country_5,Reddit
+551,Europe,country_5,Reddit
+552,Asia,country_4,AdWords
+553,South America,country_4,AdWords
+554,Asia,country_8,Reddit
+555,Europe,country_6,Reddit
+556,North America,country_7,AdWords
+557,Asia,country_7,Reddit
+558,North America,country_2,SEO
+559,Europe,country_8,Reddit
+560,Europe,country_2,AdWords
+561,Asia,country_7,AdWords
+562,South America,country_5,SEO
+563,Asia,country_1,Reddit
+564,Asia,country_7,Reddit
+565,Asia,country_5,Reddit
+566,Asia,country_8,Reddit
+567,Europe,country_3,AdWords
+568,North America,country_8,SEO
+569,North America,country_5,SEO
+570,North America,country_5,SEO
+571,North America,country_8,Reddit
+572,North America,country_6,SEO
+573,Australia,country_2,Reddit
+574,Asia,country_3,Reddit
+575,Asia,country_2,Reddit
+576,Asia,country_2,Reddit
+577,Asia,country_2,Reddit
+578,Asia,country_5,Reddit
+579,North America,country_7,AdWords
+580,Europe,country_8,AdWords
+581,Europe,country_4,AdWords
+582,Asia,country_6,AdWords
+583,Africa,country_6,Reddit
+584,North America,country_3,Reddit
+585,Europe,country_2,Reddit
+586,South America,country_5,Reddit
+587,Africa,country_7,AdWords
+588,Asia,country_7,Reddit
+589,Asia,country_6,AdWords
+590,Europe,country_4,AdWords
+591,Europe,country_8,SEO
+592,South America,country_4,AdWords
+593,North America,country_5,SEO
+594,Australia,country_2,Reddit
+595,North America,country_5,AdWords
+596,Asia,country_7,Reddit
+597,North America,country_7,SEO
+598,Asia,country_5,Reddit
+599,Australia,country_6,Reddit
+600,Africa,country_7,SEO
+601,Europe,country_5,SEO
+602,North America,country_2,SEO
+603,Europe,country_6,SEO
+604,Africa,country_3,Reddit
+605,Asia,country_6,AdWords
+606,Europe,country_5,SEO
+607,Australia,country_2,SEO
+608,Asia,country_5,AdWords
+609,Europe,country_5,Reddit
+610,North America,country_3,Reddit
+611,Asia,country_7,AdWords
+612,Asia,country_2,AdWords
+613,Australia,country_6,Reddit
+614,Asia,country_5,Reddit
+615,South America,country_2,Reddit
+616,Asia,country_5,Reddit
+617,Europe,country_7,AdWords
+618,Africa,country_5,SEO
+619,Asia,country_8,Reddit
+620,Asia,country_2,AdWords
+621,Australia,country_2,SEO
+622,North America,country_2,Reddit
+623,Europe,country_5,AdWords
+624,Asia,country_2,Reddit
+625,Europe,country_7,Reddit
+626,Europe,country_5,AdWords
+627,North America,country_8,AdWords
+628,Asia,country_4,Reddit
+629,South America,country_7,AdWords
+630,Europe,country_2,Reddit
+631,Australia,country_6,AdWords
+632,Asia,country_2,Reddit
+633,Asia,country_5,Reddit
+634,Asia,country_6,Reddit
+635,Australia,country_7,AdWords
+636,Asia,country_5,AdWords
+637,Australia,country_8,Reddit
+638,Asia,country_5,Reddit
+639,Australia,country_6,Reddit
+640,Asia,country_7,AdWords
+641,Asia,country_5,AdWords
+642,North America,country_6,SEO
+643,Europe,country_2,SEO
+644,Asia,country_8,AdWords
+645,Asia,country_2,Reddit
+646,Asia,country_5,Reddit
+647,Asia,country_5,Reddit
+648,Asia,country_5,SEO
+649,Asia,country_5,Reddit
+650,Asia,country_2,SEO
+651,Asia,country_7,Reddit
+652,Europe,country_2,AdWords
+653,Asia,country_2,Reddit
+654,North America,country_6,SEO
+655,Australia,country_6,Reddit
+656,North America,country_1,SEO
+657,South America,country_2,SEO
+658,Europe,country_5,SEO
+659,Asia,country_2,AdWords
+660,South America,country_2,Reddit
+661,Europe,country_5,AdWords
+662,Australia,country_5,SEO
+663,Africa,country_2,Reddit
+664,Asia,country_2,AdWords
+665,Africa,country_8,Reddit
+666,South America,country_6,Reddit
+667,Europe,country_7,Reddit
+668,South America,country_4,Reddit
+669,Asia,country_8,AdWords
+670,South America,country_2,AdWords
+671,North America,country_6,SEO
+672,Europe,country_8,AdWords
+673,Australia,country_7,SEO
+674,Europe,country_7,Reddit
+675,North America,country_5,SEO
+676,North America,country_5,SEO
+677,Europe,country_2,AdWords
+678,Europe,country_2,AdWords
+679,North America,country_5,SEO
+680,Europe,country_7,AdWords
+681,Europe,country_8,AdWords
+682,North America,country_5,Reddit
+683,Asia,country_5,Reddit
+684,Australia,country_7,AdWords
+685,North America,country_8,SEO
+686,North America,country_2,Reddit
+687,Asia,country_2,Reddit
+688,Australia,country_5,AdWords
+689,North America,country_7,Reddit
+690,Africa,country_2,AdWords
+691,North America,country_2,SEO
+692,Asia,country_2,SEO
+693,Africa,country_2,Reddit
+694,South America,country_6,AdWords
+695,South America,country_7,Reddit
+696,North America,country_6,SEO
+697,Africa,country_8,Reddit
+698,North America,country_7,Reddit
+699,Europe,country_8,AdWords
+700,Asia,country_5,Reddit
+701,South America,country_5,SEO
+702,Asia,country_5,Reddit
+703,Asia,country_6,Reddit
+704,Europe,country_2,Reddit
+705,Australia,country_5,Reddit
+706,Australia,country_6,AdWords
+707,Europe,country_7,AdWords
+708,Europe,country_8,AdWords
+709,Asia,country_2,SEO
+710,Asia,country_2,Reddit
+711,Asia,country_6,Reddit
+712,Europe,country_2,AdWords
+713,Asia,country_7,AdWords
+714,North America,country_7,SEO
+715,Australia,country_6,Reddit
+716,Asia,country_4,Reddit
+717,North America,country_5,SEO
+718,Australia,country_2,Reddit
+719,North America,country_2,SEO
+720,Asia,country_7,Reddit
+721,North America,country_8,Reddit
+722,Europe,country_5,AdWords
+723,Asia,country_7,Reddit
+724,Asia,country_2,Reddit
+725,South America,country_6,AdWords
+726,Australia,country_2,SEO
+727,North America,country_2,AdWords
+728,Asia,country_7,Reddit
+729,Africa,country_2,Reddit
+730,Europe,country_1,Reddit
+731,Europe,country_8,AdWords
+732,North America,country_6,Reddit
+733,Asia,country_1,Reddit
+734,Africa,country_5,Reddit
+735,Asia,country_2,AdWords
+736,Asia,country_5,AdWords
+737,Asia,country_2,Reddit
+738,Asia,country_7,Reddit
+739,North America,country_5,SEO
+740,Australia,country_8,Reddit
+741,Asia,country_6,Reddit
+742,Africa,country_5,AdWords
+743,Asia,country_7,Reddit
+744,Europe,country_6,AdWords
+745,Asia,country_1,AdWords
+746,Asia,country_8,SEO
+747,Australia,country_5,Reddit
+748,Europe,country_6,AdWords
+749,Asia,country_7,Reddit
+750,Asia,country_5,Reddit
+751,Asia,country_5,Reddit
+752,North America,country_7,Reddit
+753,Africa,country_2,Reddit
+754,North America,country_6,SEO
+755,Asia,country_2,AdWords
+756,South America,country_7,Reddit
+757,North America,country_2,Reddit
+758,Europe,country_5,AdWords
+759,Asia,country_2,Reddit
+760,Europe,country_8,AdWords
+761,North America,country_2,Reddit
+762,Asia,country_6,AdWords
+763,North America,country_3,SEO
+764,South America,country_5,SEO
+765,Asia,country_4,Reddit
+766,North America,country_7,SEO
+767,North America,country_2,AdWords
+768,Africa,country_5,AdWords
+769,Africa,country_6,Reddit
+770,Asia,country_2,Reddit
+771,North America,country_5,AdWords
+772,Africa,country_7,Reddit
+773,Europe,country_8,AdWords
+774,Europe,country_7,AdWords
+775,Europe,country_7,Reddit
+776,North America,country_2,AdWords
+777,Asia,country_5,Reddit
+778,Europe,country_6,AdWords
+779,Europe,country_2,Reddit
+780,Europe,country_2,AdWords
+781,Australia,country_2,SEO
+782,Asia,country_6,Reddit
+783,South America,country_5,SEO
+784,North America,country_2,SEO
+785,North America,country_2,Reddit
+786,Australia,country_4,AdWords
+787,Europe,country_4,AdWords
+788,North America,country_8,AdWords
+789,Europe,country_6,Reddit
+790,Europe,country_4,Reddit
+791,South America,country_1,SEO
+792,South America,country_5,AdWords
+793,North America,country_4,Reddit
+794,Europe,country_6,AdWords
+795,Asia,country_7,Reddit
+796,South America,country_4,AdWords
+797,South America,country_8,SEO
+798,South America,country_5,SEO
+799,South America,country_7,AdWords
+800,South America,country_5,Reddit
+801,Asia,country_2,Reddit
+802,Australia,country_6,Reddit
+803,South America,country_5,Reddit
+804,Asia,country_7,Reddit
+805,Asia,country_4,Reddit
+806,Asia,country_2,Reddit
+807,Europe,country_2,Reddit
+808,Europe,country_2,AdWords
+809,Asia,country_7,AdWords
+810,Europe,country_2,AdWords
+811,Asia,country_2,Reddit
+812,Asia,country_5,Reddit
+813,Asia,country_6,Reddit
+814,Asia,country_3,AdWords
+815,Europe,country_7,AdWords
+816,North America,country_6,SEO
+817,South America,country_8,SEO
+818,North America,country_5,SEO
+819,North America,country_5,SEO
+820,Europe,country_5,AdWords
+821,Asia,country_2,Reddit
+822,North America,country_5,Reddit
+823,Asia,country_6,AdWords
+824,Australia,country_2,Reddit
+825,North America,country_5,SEO
+826,Australia,country_2,Reddit
+827,Asia,country_5,SEO
+828,Europe,country_7,Reddit
+829,Africa,country_5,Reddit
+830,Asia,country_2,Reddit
+831,South America,country_2,Reddit
+832,North America,country_5,Reddit
+833,Asia,country_5,AdWords
+834,Asia,country_6,Reddit
+835,Asia,country_2,Reddit
+836,Asia,country_5,Reddit
+837,South America,country_3,Reddit
+838,Europe,country_2,AdWords
+839,South America,country_8,Reddit
+840,South America,country_8,SEO
+841,South America,country_6,SEO
+842,South America,country_6,SEO
+843,Asia,country_2,Reddit
+844,South America,country_4,SEO
+845,Asia,country_4,Reddit
+846,Asia,country_7,Reddit
+847,Asia,country_4,Reddit
+848,Asia,country_2,Reddit
+849,Asia,country_7,Reddit
+850,North America,country_7,Reddit
+851,North America,country_8,SEO
+852,Asia,country_2,Reddit
+853,North America,country_6,AdWords
+854,Asia,country_5,Reddit
+855,Europe,country_6,Reddit
+856,Australia,country_5,SEO
+857,Australia,country_5,Reddit
+858,North America,country_7,SEO
+859,Europe,country_5,AdWords
+860,Europe,country_5,AdWords
+861,Asia,country_7,Reddit
+862,Australia,country_7,Reddit
+863,Australia,country_5,AdWords
+864,North America,country_8,SEO
+865,Asia,country_6,Reddit
+866,North America,country_8,AdWords
+867,Asia,country_7,AdWords
+868,Asia,country_2,Reddit
+869,Asia,country_5,Reddit
+870,South America,country_6,Reddit
+871,North America,country_2,Reddit
+872,Africa,country_7,Reddit
+873,Asia,country_2,Reddit
+874,Europe,country_2,Reddit
+875,Europe,country_2,AdWords
+876,Africa,country_5,AdWords
+877,North America,country_6,AdWords
+878,North America,country_7,SEO
+879,Asia,country_5,Reddit
+880,Europe,country_4,SEO
+881,North America,country_7,Reddit
+882,Europe,country_7,Reddit
+883,Asia,country_7,Reddit
+884,Europe,country_6,AdWords
+885,Asia,country_1,Reddit
+886,Australia,country_6,Reddit
+887,Africa,country_7,AdWords
+888,South America,country_7,Reddit
+889,North America,country_8,SEO
+890,South America,country_5,AdWords
+891,South America,country_2,Reddit
+892,Australia,country_7,Reddit
+893,South America,country_7,AdWords
+894,Africa,country_2,Reddit
+895,Europe,country_6,AdWords
+896,Africa,country_6,Reddit
+897,Asia,country_7,SEO
+898,South America,country_6,Reddit
+899,North America,country_7,SEO
+900,Africa,country_7,Reddit
+901,Europe,country_7,SEO
+902,Asia,country_8,AdWords
+903,Europe,country_1,Reddit
+904,South America,country_7,SEO
+905,Asia,country_4,Reddit
+906,Australia,country_2,SEO
+907,North America,country_5,Reddit
+908,South America,country_2,SEO
+909,Asia,country_5,Reddit
+910,South America,country_7,SEO
+911,South America,country_2,AdWords
+912,North America,country_5,SEO
+913,Asia,country_6,AdWords
+914,Asia,country_6,Reddit
+915,North America,country_5,SEO
+916,Europe,country_7,Reddit
+917,North America,country_6,Reddit
+918,South America,country_2,Reddit
+919,Europe,country_3,AdWords
+920,South America,country_6,AdWords
+921,North America,country_2,SEO
+922,North America,country_5,SEO
+923,Asia,country_7,Reddit
+924,Australia,country_7,Reddit
+925,South America,country_2,Reddit
+926,Asia,country_5,Reddit
+927,Asia,country_4,Reddit
+928,Asia,country_5,Reddit
+929,South America,country_7,SEO
+930,Europe,country_6,AdWords
+931,North America,country_2,SEO
+932,Asia,country_6,AdWords
+933,Europe,country_5,Reddit
+934,North America,country_8,AdWords
+935,Asia,country_2,Reddit
+936,Europe,country_7,AdWords
+937,Europe,country_6,AdWords
+938,North America,country_3,SEO
+939,South America,country_7,Reddit
+940,Africa,country_2,SEO
+941,North America,country_7,SEO
+942,South America,country_5,AdWords
+943,Asia,country_5,Reddit
+944,North America,country_5,SEO
+945,North America,country_5,AdWords
+946,Europe,country_7,AdWords
+947,Asia,country_5,Reddit
+948,Asia,country_1,AdWords
+949,Australia,country_7,SEO
+950,Asia,country_5,AdWords
+951,North America,country_5,AdWords
+952,North America,country_2,SEO
+953,Europe,country_7,AdWords
+954,Asia,country_8,Reddit
+955,Australia,country_1,Reddit
+956,Africa,country_7,Reddit
+957,Asia,country_7,Reddit
+958,Asia,country_7,AdWords
+959,Asia,country_7,Reddit
+960,Africa,country_7,Reddit
+961,Asia,country_7,AdWords
+962,North America,country_6,SEO
+963,South America,country_5,AdWords
+964,South America,country_5,Reddit
+965,Asia,country_7,Reddit
+966,Europe,country_8,AdWords
+967,Asia,country_6,Reddit
+968,North America,country_5,SEO
+969,Europe,country_3,AdWords
+970,Asia,country_5,AdWords
+971,Africa,country_7,Reddit
+972,South America,country_7,SEO
+973,North America,country_5,SEO
+974,Asia,country_5,Reddit
+975,Asia,country_4,Reddit
+976,Europe,country_6,SEO
+977,South America,country_4,Reddit
+978,North America,country_4,SEO
+979,Asia,country_5,Reddit
+980,Asia,country_2,AdWords
+981,South America,country_5,Reddit
+982,Asia,country_5,Reddit
+983,Europe,country_5,Reddit
+984,Europe,country_2,AdWords
+985,Australia,country_2,Reddit
+986,Africa,country_5,Reddit
+987,South America,country_5,Reddit
+988,South America,country_5,AdWords
+989,Australia,country_4,Reddit
+990,Asia,country_3,Reddit
+991,Australia,country_2,SEO
+992,Asia,country_5,AdWords
+993,Asia,country_5,Reddit
+994,Europe,country_6,AdWords
+995,South America,country_6,SEO
+996,Africa,country_7,Reddit
+997,Asia,country_6,Reddit
+998,Asia,country_7,AdWords
+999,North America,country_7,AdWords
+1000,Asia,country_7,AdWords
+1001,Africa,country_8,Reddit
+1002,South America,country_7,Reddit
+1003,South America,country_8,SEO
+1004,Asia,country_4,Reddit
+1005,Asia,country_7,Reddit
+1006,Europe,country_2,AdWords
+1007,Europe,country_2,Reddit
+1008,South America,country_7,Reddit
+1009,Asia,country_2,Reddit
+1010,Europe,country_5,Reddit
+1011,South America,country_7,AdWords
+1012,Asia,country_8,AdWords
+1013,South America,country_7,AdWords
+1014,North America,country_8,SEO
+1015,Asia,country_2,Reddit
+1016,Europe,country_2,SEO
+1017,Asia,country_2,AdWords
+1018,Australia,country_8,Reddit
+1019,Asia,country_2,AdWords
+1020,Asia,country_8,Reddit
+1021,Australia,country_6,Reddit
+1022,Asia,country_5,Reddit
+1023,Asia,country_6,Reddit
+1024,Asia,country_2,AdWords
+1025,South America,country_6,Reddit
+1026,Asia,country_1,Reddit
+1027,Asia,country_2,Reddit
+1028,North America,country_2,SEO
+1029,Asia,country_2,Reddit
+1030,Europe,country_2,AdWords
+1031,Asia,country_2,AdWords
+1032,Asia,country_5,AdWords
+1033,Asia,country_4,Reddit
+1034,North America,country_8,SEO
+1035,Asia,country_5,Reddit
+1036,North America,country_2,Reddit
+1037,North America,country_6,Reddit
+1038,North America,country_2,Reddit
+1039,Europe,country_5,AdWords
+1040,Africa,country_2,Reddit
+1041,South America,country_2,Reddit
+1042,Asia,country_2,Reddit
+1043,South America,country_2,SEO
+1044,Asia,country_2,Reddit
+1045,Europe,country_8,Reddit
+1046,North America,country_6,SEO
+1047,Asia,country_5,Reddit
+1048,Europe,country_7,AdWords
+1049,Asia,country_3,Reddit
+1050,Asia,country_2,Reddit
+1051,Europe,country_6,Reddit
+1052,Africa,country_5,SEO
+1053,Asia,country_6,Reddit
+1054,Asia,country_5,SEO
+1055,South America,country_2,SEO
+1056,Asia,country_7,Reddit
+1057,Australia,country_6,Reddit
+1058,Europe,country_6,AdWords
+1059,South America,country_6,SEO
+1060,Australia,country_2,AdWords
+1061,South America,country_6,Reddit
+1062,North America,country_6,Reddit
+1063,North America,country_5,Reddit
+1064,Australia,country_6,Reddit
+1065,Europe,country_8,SEO
+1066,Asia,country_7,AdWords
+1067,South America,country_7,Reddit
+1068,Asia,country_2,Reddit
+1069,South America,country_8,SEO
+1070,North America,country_3,SEO
+1071,Asia,country_5,Reddit
+1072,Australia,country_5,Reddit
+1073,Asia,country_2,Reddit
+1074,North America,country_6,AdWords
+1075,North America,country_2,SEO
+1076,South America,country_5,Reddit
+1077,Asia,country_2,Reddit
+1078,Australia,country_6,Reddit
+1079,Asia,country_6,Reddit
+1080,Africa,country_2,Reddit
+1081,Asia,country_6,Reddit
+1082,Asia,country_7,AdWords
+1083,Asia,country_7,Reddit
+1084,Europe,country_7,AdWords
+1085,South America,country_7,Reddit
+1086,Asia,country_7,Reddit
+1087,Europe,country_7,Reddit
+1088,Australia,country_5,Reddit
+1089,Asia,country_7,Reddit
+1090,Asia,country_2,Reddit
+1091,North America,country_6,AdWords
+1092,Europe,country_7,AdWords
+1093,Africa,country_5,Reddit
+1094,Australia,country_7,Reddit
+1095,Asia,country_4,AdWords
+1096,Asia,country_4,Reddit
+1097,South America,country_2,AdWords
+1098,Asia,country_2,Reddit
+1099,Asia,country_5,Reddit
+1100,Asia,country_5,Reddit
+1101,Australia,country_5,Reddit
+1102,North America,country_5,Reddit
+1103,Australia,country_5,Reddit
+1104,Europe,country_7,Reddit
+1105,Europe,country_5,Reddit
+1106,Asia,country_6,Reddit
+1107,Asia,country_7,Reddit
+1108,Asia,country_2,AdWords
+1109,Africa,country_2,Reddit
+1110,Asia,country_4,Reddit
+1111,Europe,country_1,Reddit
+1112,Australia,country_2,SEO
+1113,North America,country_8,SEO
+1114,Asia,country_2,Reddit
+1115,Asia,country_5,AdWords
+1116,North America,country_2,SEO
+1117,Europe,country_2,Reddit
+1118,Africa,country_6,AdWords
+1119,Asia,country_6,Reddit
+1120,North America,country_8,SEO
+1121,Asia,country_2,AdWords
+1122,Europe,country_5,AdWords
+1123,Australia,country_2,SEO
+1124,South America,country_7,Reddit
+1125,Europe,country_5,AdWords
+1126,South America,country_5,SEO
+1127,North America,country_5,Reddit
+1128,North America,country_7,SEO
+1129,Australia,country_5,Reddit
+1130,Europe,country_5,Reddit
+1131,Asia,country_2,Reddit
+1132,Europe,country_6,AdWords
+1133,North America,country_2,SEO
+1134,North America,country_6,Reddit
+1135,Europe,country_2,AdWords
+1136,Asia,country_5,Reddit
+1137,Australia,country_2,Reddit
+1138,Europe,country_2,SEO
+1139,North America,country_5,SEO
+1140,Asia,country_6,SEO
+1141,North America,country_5,SEO
+1142,Australia,country_5,SEO
+1143,South America,country_5,Reddit
+1144,Europe,country_5,AdWords
+1145,Asia,country_5,Reddit
+1146,Asia,country_5,Reddit
+1147,Africa,country_6,SEO
+1148,Asia,country_5,Reddit
+1149,North America,country_4,AdWords
+1150,Australia,country_7,AdWords
+1151,Asia,country_2,AdWords
+1152,Europe,country_2,AdWords
+1153,North America,country_5,Reddit
+1154,Asia,country_5,SEO
+1155,Asia,country_7,Reddit
+1156,North America,country_8,AdWords
+1157,Europe,country_2,AdWords
+1158,Asia,country_5,Reddit
+1159,Asia,country_5,Reddit
+1160,Asia,country_7,Reddit
+1161,South America,country_5,SEO
+1162,Asia,country_8,Reddit
+1163,Asia,country_8,Reddit
+1164,Asia,country_2,Reddit
+1165,North America,country_2,AdWords
+1166,Europe,country_8,Reddit
+1167,Australia,country_3,Reddit
+1168,Asia,country_5,SEO
+1169,Asia,country_8,SEO
+1170,North America,country_1,SEO
+1171,South America,country_2,SEO
+1172,Europe,country_5,SEO
+1173,North America,country_5,Reddit
+1174,Europe,country_2,Reddit
+1175,North America,country_5,Reddit
+1176,Europe,country_5,SEO
+1177,Asia,country_7,AdWords
+1178,South America,country_4,AdWords
+1179,Asia,country_2,Reddit
+1180,South America,country_2,Reddit
+1181,North America,country_2,Reddit
+1182,South America,country_8,AdWords
+1183,North America,country_7,Reddit
+1184,Asia,country_2,Reddit
+1185,Asia,country_2,Reddit
+1186,South America,country_5,AdWords
+1187,North America,country_5,AdWords
+1188,Africa,country_2,Reddit
+1189,Asia,country_7,AdWords
+1190,North America,country_5,AdWords
+1191,South America,country_7,Reddit
+1192,North America,country_5,SEO
+1193,Europe,country_8,AdWords
+1194,Asia,country_6,Reddit
+1195,Europe,country_7,AdWords
+1196,Europe,country_6,SEO
+1197,North America,country_7,Reddit
+1198,Europe,country_5,AdWords
+1199,North America,country_7,Reddit
+1200,North America,country_6,SEO
+1201,South America,country_7,SEO
+1202,South America,country_5,AdWords
+1203,South America,country_4,Reddit
+1204,South America,country_4,AdWords
+1205,North America,country_2,SEO
+1206,Asia,country_7,AdWords
+1207,North America,country_2,Reddit
+1208,Europe,country_5,AdWords
+1209,Asia,country_1,Reddit
+1210,Asia,country_2,Reddit
+1211,North America,country_6,SEO
+1212,South America,country_6,Reddit
+1213,Asia,country_3,AdWords
+1214,Asia,country_2,Reddit
+1215,Asia,country_7,Reddit
+1216,Africa,country_5,Reddit
+1217,South America,country_8,SEO
+1218,Europe,country_7,AdWords
+1219,Asia,country_4,Reddit
+1220,Africa,country_7,AdWords
+1221,Africa,country_5,Reddit
+1222,Africa,country_5,Reddit
+1223,Europe,country_5,AdWords
+1224,North America,country_7,AdWords
+1225,Europe,country_2,Reddit
+1226,Asia,country_2,Reddit
+1227,South America,country_2,Reddit
+1228,Asia,country_5,Reddit
+1229,South America,country_5,SEO
+1230,Asia,country_5,Reddit
+1231,South America,country_6,SEO
+1232,Asia,country_2,SEO
+1233,North America,country_2,SEO
+1234,Asia,country_1,Reddit
+1235,South America,country_2,SEO
+1236,Europe,country_5,AdWords
+1237,Africa,country_7,Reddit
+1238,Europe,country_8,AdWords
+1239,Asia,country_2,Reddit
+1240,Asia,country_3,Reddit
+1241,Africa,country_8,Reddit
+1242,Asia,country_6,Reddit
+1243,Africa,country_6,Reddit
+1244,Asia,country_7,Reddit
+1245,North America,country_5,AdWords
+1246,South America,country_7,AdWords
+1247,North America,country_2,AdWords
+1248,Asia,country_5,AdWords
+1249,Europe,country_7,AdWords
+1250,Australia,country_7,Reddit
+1251,Europe,country_2,AdWords
+1252,North America,country_6,Reddit
+1253,Asia,country_5,Reddit
+1254,North America,country_5,SEO
+1255,South America,country_7,AdWords
+1256,Asia,country_5,Reddit
+1257,Asia,country_1,SEO
+1258,Asia,country_4,AdWords
+1259,North America,country_7,SEO
+1260,North America,country_4,SEO
+1261,Asia,country_5,Reddit
+1262,South America,country_7,SEO
+1263,North America,country_6,SEO
+1264,Europe,country_7,AdWords
+1265,Australia,country_8,Reddit
+1266,North America,country_5,SEO
+1267,Asia,country_7,Reddit
+1268,North America,country_6,SEO
+1269,Asia,country_7,Reddit
+1270,North America,country_5,AdWords
+1271,Europe,country_6,Reddit
+1272,Australia,country_6,Reddit
+1273,Europe,country_5,AdWords
+1274,Asia,country_2,Reddit
+1275,North America,country_5,SEO
+1276,Australia,country_7,Reddit
+1277,North America,country_5,SEO
+1278,South America,country_3,Reddit
+1279,Europe,country_1,AdWords
+1280,Asia,country_8,Reddit
+1281,Australia,country_5,Reddit
+1282,Europe,country_6,Reddit
+1283,Asia,country_8,Reddit
+1284,South America,country_2,AdWords
+1285,South America,country_2,AdWords
+1286,Asia,country_5,Reddit
+1287,Europe,country_2,AdWords
+1288,North America,country_6,Reddit
+1289,Asia,country_8,AdWords
+1290,South America,country_8,Reddit
+1291,Asia,country_8,Reddit
+1292,Europe,country_2,Reddit
+1293,North America,country_5,SEO
+1294,Asia,country_2,Reddit
+1295,Europe,country_2,Reddit
+1296,North America,country_6,AdWords
+1297,Europe,country_7,AdWords
+1298,Europe,country_5,Reddit
+1299,Asia,country_2,Reddit
+1300,Asia,country_2,Reddit
+1301,South America,country_7,Reddit
+1302,Europe,country_8,AdWords
+1303,South America,country_5,SEO
+1304,South America,country_2,Reddit
+1305,Europe,country_5,AdWords
+1306,Asia,country_5,Reddit
+1307,Asia,country_2,Reddit
+1308,Australia,country_8,SEO
+1309,Asia,country_2,AdWords
+1310,Asia,country_2,Reddit
+1311,Europe,country_2,AdWords
+1312,Asia,country_5,Reddit
+1313,Asia,country_3,AdWords
+1314,Europe,country_6,Reddit
+1315,North America,country_7,SEO
+1316,Europe,country_7,AdWords
+1317,Asia,country_8,SEO
+1318,North America,country_4,SEO
+1319,Africa,country_6,Reddit
+1320,Asia,country_2,Reddit
+1321,Asia,country_7,AdWords
+1322,Asia,country_7,Reddit
+1323,Asia,country_2,Reddit
+1324,Europe,country_1,SEO
+1325,Africa,country_7,Reddit
+1326,South America,country_7,Reddit
+1327,Asia,country_6,Reddit
+1328,North America,country_2,SEO
+1329,North America,country_6,AdWords
+1330,North America,country_5,AdWords
+1331,South America,country_7,Reddit
+1332,North America,country_5,AdWords
+1333,Asia,country_6,SEO
+1334,Asia,country_2,Reddit
+1335,Europe,country_5,AdWords
+1336,Asia,country_6,Reddit
+1337,South America,country_2,SEO
+1338,Asia,country_2,Reddit
+1339,Europe,country_3,AdWords
+1340,Asia,country_2,Reddit
+1341,North America,country_2,SEO
+1342,North America,country_5,SEO
+1343,North America,country_2,SEO
+1344,Asia,country_6,AdWords
+1345,South America,country_8,SEO
+1346,South America,country_7,SEO
+1347,Asia,country_2,Reddit
+1348,Europe,country_7,AdWords
+1349,Australia,country_7,Reddit
+1350,North America,country_7,SEO
+1351,Asia,country_7,AdWords
+1352,South America,country_5,Reddit
+1353,Asia,country_7,AdWords
+1354,Asia,country_5,AdWords
+1355,Europe,country_5,Reddit
+1356,North America,country_2,Reddit
+1357,Asia,country_8,SEO
+1358,Asia,country_5,Reddit
+1359,North America,country_7,SEO
+1360,South America,country_5,AdWords
+1361,South America,country_6,SEO
+1362,Africa,country_1,Reddit
+1363,Asia,country_6,Reddit
+1364,Europe,country_6,AdWords
+1365,Europe,country_5,Reddit
+1366,Asia,country_2,Reddit
+1367,Europe,country_2,Reddit
+1368,Australia,country_7,SEO
+1369,Asia,country_8,Reddit
+1370,South America,country_5,SEO
+1371,Europe,country_2,Reddit
+1372,South America,country_6,Reddit
+1373,Africa,country_4,Reddit
+1374,North America,country_2,SEO
+1375,Europe,country_5,AdWords
+1376,North America,country_5,AdWords
+1377,Europe,country_5,Reddit
+1378,Europe,country_7,AdWords
+1379,South America,country_2,SEO
+1380,Asia,country_7,AdWords
+1381,Asia,country_7,Reddit
+1382,Asia,country_5,Reddit
+1383,South America,country_6,AdWords
+1384,Asia,country_5,Reddit
+1385,Europe,country_5,AdWords
+1386,Asia,country_8,Reddit
+1387,North America,country_7,AdWords
+1388,Asia,country_5,Reddit
+1389,North America,country_5,SEO
+1390,Asia,country_5,Reddit
+1391,South America,country_7,Reddit
+1392,Asia,country_2,Reddit
+1393,Asia,country_5,Reddit
+1394,Europe,country_2,Reddit
+1395,Australia,country_5,Reddit
+1396,Africa,country_7,AdWords
+1397,Asia,country_2,Reddit
+1398,Asia,country_8,AdWords
+1399,Europe,country_4,AdWords
+1400,Asia,country_7,Reddit
+1401,Asia,country_2,Reddit
+1402,South America,country_5,AdWords
+1403,North America,country_5,SEO
+1404,Asia,country_1,Reddit
+1405,Australia,country_2,Reddit
+1406,North America,country_4,SEO
+1407,North America,country_4,AdWords
+1408,Europe,country_5,AdWords
+1409,Europe,country_4,AdWords
+1410,Asia,country_4,AdWords
+1411,Asia,country_2,Reddit
+1412,Africa,country_2,Reddit
+1413,South America,country_2,Reddit
+1414,Asia,country_6,Reddit
+1415,South America,country_2,SEO
+1416,Asia,country_6,Reddit
+1417,Asia,country_2,Reddit
+1418,Asia,country_6,Reddit
+1419,Europe,country_5,AdWords
+1420,Asia,country_5,AdWords
+1421,Europe,country_2,Reddit
+1422,Africa,country_5,Reddit
+1423,North America,country_7,Reddit
+1424,Asia,country_8,Reddit
+1425,South America,country_2,Reddit
+1426,Europe,country_2,AdWords
+1427,Asia,country_8,AdWords
+1428,Asia,country_5,Reddit
+1429,North America,country_2,SEO
+1430,South America,country_5,Reddit
+1431,South America,country_2,Reddit
+1432,Asia,country_5,Reddit
+1433,Asia,country_8,Reddit
+1434,Europe,country_7,AdWords
+1435,North America,country_2,Reddit
+1436,Australia,country_2,Reddit
+1437,Asia,country_8,AdWords
+1438,Europe,country_6,SEO
+1439,Europe,country_5,Reddit
+1440,Asia,country_5,Reddit
+1441,Asia,country_3,Reddit
+1442,Asia,country_2,Reddit
+1443,Europe,country_6,AdWords
+1444,North America,country_5,Reddit
+1445,Africa,country_6,AdWords
+1446,Africa,country_2,Reddit
+1447,Europe,country_7,Reddit
+1448,Asia,country_7,Reddit
+1449,Asia,country_5,AdWords
+1450,Europe,country_6,AdWords
+1451,North America,country_2,SEO
+1452,Asia,country_6,AdWords
+1453,Asia,country_7,AdWords
+1454,Asia,country_7,Reddit
+1455,Europe,country_6,AdWords
+1456,Europe,country_2,AdWords
+1457,Australia,country_2,Reddit
+1458,Europe,country_2,AdWords
+1459,Asia,country_7,Reddit
+1460,Asia,country_2,AdWords
+1461,Australia,country_8,AdWords
+1462,South America,country_2,Reddit
+1463,Asia,country_5,Reddit
+1464,Europe,country_7,Reddit
+1465,South America,country_2,SEO
+1466,Asia,country_6,Reddit
+1467,South America,country_6,Reddit
+1468,Asia,country_7,Reddit
+1469,Asia,country_7,Reddit
+1470,South America,country_5,AdWords
+1471,Asia,country_5,Reddit
+1472,South America,country_6,Reddit
+1473,Asia,country_5,Reddit
+1474,North America,country_6,SEO
+1475,Asia,country_5,Reddit
+1476,Europe,country_3,SEO
+1477,North America,country_5,Reddit
+1478,North America,country_6,Reddit
+1479,Europe,country_6,AdWords
+1480,South America,country_8,SEO
+1481,North America,country_3,Reddit
+1482,South America,country_6,Reddit
+1483,Europe,country_6,Reddit
+1484,Africa,country_5,Reddit
+1485,South America,country_2,Reddit
+1486,North America,country_1,Reddit
+1487,Asia,country_2,Reddit
+1488,North America,country_2,Reddit
+1489,North America,country_5,SEO
+1490,Asia,country_2,Reddit
+1491,Europe,country_5,AdWords
+1492,North America,country_6,Reddit
+1493,Europe,country_2,AdWords
+1494,Africa,country_6,Reddit
+1495,Africa,country_2,SEO
+1496,South America,country_7,AdWords
+1497,Europe,country_5,SEO
+1498,South America,country_7,Reddit
+1499,Asia,country_3,Reddit
+1500,South America,country_5,Reddit
+1501,Asia,country_7,Reddit
+1502,Asia,country_6,Reddit
+1503,Asia,country_2,Reddit
+1504,Europe,country_7,Reddit
+1505,North America,country_2,Reddit
+1506,Asia,country_2,Reddit
+1507,Africa,country_7,Reddit
+1508,South America,country_6,SEO
+1509,North America,country_8,SEO
+1510,South America,country_7,SEO
+1511,Europe,country_5,Reddit
+1512,Asia,country_5,Reddit
+1513,North America,country_8,SEO
+1514,North America,country_8,SEO
+1515,Europe,country_2,AdWords
+1516,Asia,country_8,AdWords
+1517,Asia,country_5,Reddit
+1518,Asia,country_7,Reddit
+1519,Europe,country_5,AdWords
+1520,Australia,country_5,AdWords
+1521,Asia,country_6,Reddit
+1522,Asia,country_6,AdWords
+1523,North America,country_8,SEO
+1524,Asia,country_2,Reddit
+1525,South America,country_5,AdWords
+1526,Asia,country_8,Reddit
+1527,Asia,country_7,SEO
+1528,Asia,country_4,SEO
+1529,South America,country_7,SEO
+1530,Europe,country_2,AdWords
+1531,Europe,country_6,Reddit
+1532,Asia,country_2,Reddit
+1533,South America,country_4,AdWords
+1534,North America,country_5,SEO
+1535,North America,country_4,AdWords
+1536,North America,country_7,AdWords
+1537,Australia,country_5,Reddit
+1538,North America,country_5,AdWords
+1539,Europe,country_8,AdWords
+1540,South America,country_2,AdWords
+1541,Asia,country_8,Reddit
+1542,Australia,country_7,Reddit
+1543,South America,country_6,Reddit
+1544,North America,country_5,SEO
+1545,South America,country_7,SEO
+1546,Europe,country_2,AdWords
+1547,Asia,country_7,Reddit
+1548,Asia,country_6,AdWords
+1549,South America,country_7,SEO
+1550,Asia,country_7,Reddit
+1551,Europe,country_2,AdWords
+1552,Australia,country_2,AdWords
+1553,North America,country_2,SEO
+1554,Asia,country_4,Reddit
+1555,Asia,country_2,Reddit
+1556,Asia,country_2,Reddit
+1557,Asia,country_2,Reddit
+1558,North America,country_2,AdWords
+1559,North America,country_5,SEO
+1560,Africa,country_6,Reddit
+1561,Europe,country_2,AdWords
+1562,Asia,country_8,Reddit
+1563,Asia,country_5,AdWords
+1564,North America,country_4,SEO
+1565,Asia,country_7,AdWords
+1566,Asia,country_5,Reddit
+1567,North America,country_8,SEO
+1568,Europe,country_5,SEO
+1569,South America,country_5,SEO
+1570,Asia,country_6,Reddit
+1571,Asia,country_2,Reddit
+1572,Africa,country_6,Reddit
+1573,Asia,country_2,Reddit
+1574,Asia,country_8,AdWords
+1575,Asia,country_8,Reddit
+1576,Europe,country_7,AdWords
+1577,Europe,country_2,Reddit
+1578,North America,country_7,SEO
+1579,Australia,country_6,Reddit
+1580,South America,country_7,Reddit
+1581,North America,country_6,Reddit
+1582,Asia,country_4,Reddit
+1583,South America,country_5,Reddit
+1584,North America,country_2,SEO
+1585,Asia,country_5,Reddit
+1586,Africa,country_5,Reddit
+1587,Europe,country_8,Reddit
+1588,Europe,country_2,AdWords
+1589,Africa,country_3,AdWords
+1590,Europe,country_5,Reddit
+1591,Africa,country_2,Reddit
+1592,North America,country_2,SEO
+1593,South America,country_5,Reddit
+1594,South America,country_7,AdWords
+1595,Europe,country_5,AdWords
+1596,Asia,country_7,AdWords
+1597,South America,country_2,Reddit
+1598,Europe,country_5,AdWords
+1599,Asia,country_2,Reddit
+1600,North America,country_7,Reddit
+1601,Asia,country_2,SEO
+1602,North America,country_5,SEO
+1603,North America,country_5,SEO
+1604,Asia,country_6,Reddit
+1605,Asia,country_4,Reddit
+1606,Asia,country_5,Reddit
+1607,Asia,country_8,Reddit
+1608,Europe,country_5,AdWords
+1609,Europe,country_7,AdWords
+1610,Asia,country_8,Reddit
+1611,Europe,country_6,AdWords
+1612,North America,country_2,Reddit
+1613,Asia,country_5,AdWords
+1614,Asia,country_2,AdWords
+1615,North America,country_8,SEO
+1616,Europe,country_4,SEO
+1617,Asia,country_2,Reddit
+1618,South America,country_2,Reddit
+1619,Europe,country_7,SEO
+1620,South America,country_7,Reddit
+1621,Europe,country_2,Reddit
+1622,Asia,country_7,Reddit
+1623,Asia,country_7,Reddit
+1624,North America,country_8,SEO
+1625,Australia,country_5,AdWords
+1626,Europe,country_7,Reddit
+1627,Europe,country_2,AdWords
+1628,Australia,country_5,AdWords
+1629,Asia,country_7,Reddit
+1630,Africa,country_4,Reddit
+1631,Australia,country_2,Reddit
+1632,North America,country_3,AdWords
+1633,Asia,country_7,AdWords
+1634,South America,country_2,AdWords
+1635,Africa,country_5,AdWords
+1636,Europe,country_8,AdWords
+1637,Australia,country_2,SEO
+1638,South America,country_2,AdWords
+1639,Asia,country_4,Reddit
+1640,Asia,country_7,Reddit
+1641,North America,country_6,SEO
+1642,Asia,country_8,AdWords
+1643,Asia,country_7,Reddit
+1644,Europe,country_5,Reddit
+1645,Europe,country_7,AdWords
+1646,Europe,country_5,Reddit
+1647,Europe,country_7,AdWords
+1648,Asia,country_7,AdWords
+1649,Asia,country_6,Reddit
+1650,Asia,country_5,Reddit
+1651,Europe,country_2,AdWords
+1652,North America,country_7,Reddit
+1653,Asia,country_6,Reddit
+1654,Europe,country_2,Reddit
+1655,Europe,country_7,Reddit
+1656,Europe,country_7,AdWords
+1657,Asia,country_6,AdWords
+1658,Asia,country_2,Reddit
+1659,Asia,country_4,Reddit
+1660,Africa,country_4,Reddit
+1661,Europe,country_2,AdWords
+1662,North America,country_7,SEO
+1663,Europe,country_2,Reddit
+1664,North America,country_4,SEO
+1665,North America,country_2,Reddit
+1666,Europe,country_4,Reddit
+1667,Europe,country_5,Reddit
+1668,Asia,country_7,Reddit
+1669,Australia,country_7,SEO
+1670,Asia,country_2,Reddit
+1671,Asia,country_2,Reddit
+1672,South America,country_2,AdWords
+1673,Australia,country_6,Reddit
+1674,South America,country_5,Reddit
+1675,Asia,country_5,SEO
+1676,North America,country_5,Reddit
+1677,Australia,country_7,Reddit
+1678,Europe,country_5,Reddit
+1679,Europe,country_7,Reddit
+1680,North America,country_2,Reddit
+1681,Asia,country_7,Reddit
+1682,Asia,country_5,Reddit
+1683,South America,country_5,Reddit
+1684,Asia,country_2,Reddit
+1685,Asia,country_1,Reddit
+1686,Asia,country_2,Reddit
+1687,Africa,country_8,Reddit
+1688,Africa,country_1,SEO
+1689,North America,country_7,Reddit
+1690,Asia,country_4,Reddit
+1691,South America,country_6,AdWords
+1692,South America,country_2,SEO
+1693,Australia,country_2,AdWords
+1694,North America,country_2,SEO
+1695,Asia,country_8,AdWords
+1696,South America,country_7,Reddit
+1697,Europe,country_5,Reddit
+1698,Africa,country_7,AdWords
+1699,South America,country_2,Reddit
+1700,Asia,country_2,Reddit
+1701,Asia,country_5,AdWords
+1702,Asia,country_2,Reddit
+1703,Asia,country_7,Reddit
+1704,Australia,country_2,Reddit
+1705,Australia,country_5,Reddit
+1706,North America,country_7,SEO
+1707,Europe,country_5,AdWords
+1708,Europe,country_6,SEO
+1709,Africa,country_2,Reddit
+1710,Asia,country_5,Reddit
+1711,Asia,country_5,Reddit
+1712,South America,country_6,AdWords
+1713,South America,country_5,Reddit
+1714,South America,country_6,AdWords
+1715,Asia,country_5,Reddit
+1716,North America,country_7,AdWords
+1717,Australia,country_7,AdWords
+1718,Asia,country_5,Reddit
+1719,Europe,country_6,Reddit
+1720,Australia,country_2,Reddit
+1721,North America,country_5,AdWords
+1722,Europe,country_1,AdWords
+1723,North America,country_3,SEO
+1724,Europe,country_7,Reddit
+1725,Asia,country_6,Reddit
+1726,Asia,country_5,AdWords
+1727,Asia,country_6,Reddit
+1728,Asia,country_2,Reddit
+1729,Asia,country_7,Reddit
+1730,Asia,country_2,Reddit
+1731,South America,country_2,Reddit
+1732,Asia,country_6,AdWords
+1733,Asia,country_8,Reddit
+1734,Asia,country_8,Reddit
+1735,Europe,country_5,Reddit
+1736,Asia,country_5,SEO
+1737,Asia,country_5,Reddit
+1738,Asia,country_2,Reddit
+1739,Asia,country_7,AdWords
+1740,Asia,country_7,SEO
+1741,North America,country_5,AdWords
+1742,Asia,country_8,AdWords
+1743,North America,country_2,AdWords
+1744,Africa,country_5,Reddit
+1745,Europe,country_2,AdWords
+1746,Asia,country_8,Reddit
+1747,Europe,country_5,AdWords
+1748,South America,country_7,SEO
+1749,Asia,country_2,AdWords
+1750,South America,country_2,AdWords
+1751,North America,country_7,AdWords
+1752,Asia,country_6,Reddit
+1753,Europe,country_5,Reddit
+1754,North America,country_2,Reddit
+1755,Europe,country_5,AdWords
+1756,North America,country_7,SEO
+1757,Europe,country_7,SEO
+1758,Africa,country_2,Reddit
+1759,Asia,country_6,Reddit
+1760,Asia,country_8,AdWords
+1761,Asia,country_2,Reddit
+1762,North America,country_5,SEO
+1763,Asia,country_5,Reddit
+1764,Europe,country_4,AdWords
+1765,Africa,country_2,Reddit
+1766,Asia,country_5,AdWords
+1767,Europe,country_5,AdWords
+1768,South America,country_8,Reddit
+1769,Australia,country_5,AdWords
+1770,Asia,country_6,Reddit
+1771,Africa,country_5,AdWords
+1772,South America,country_7,SEO
+1773,Asia,country_8,Reddit
+1774,Asia,country_2,AdWords
+1775,Asia,country_2,AdWords
+1776,Asia,country_6,Reddit
+1777,North America,country_5,SEO
+1778,Asia,country_2,Reddit
+1779,South America,country_4,SEO
+1780,Africa,country_8,AdWords
+1781,Asia,country_2,Reddit
+1782,Asia,country_2,AdWords
+1783,Asia,country_3,Reddit
+1784,North America,country_2,SEO
+1785,Africa,country_2,AdWords
+1786,Asia,country_6,Reddit
+1787,Asia,country_2,Reddit
+1788,Europe,country_7,AdWords
+1789,Asia,country_4,AdWords
+1790,North America,country_2,AdWords
+1791,Asia,country_8,SEO
+1792,Asia,country_6,Reddit
+1793,Europe,country_7,AdWords
+1794,Asia,country_5,Reddit
