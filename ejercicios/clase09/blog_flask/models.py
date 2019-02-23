@@ -6,6 +6,7 @@ from datetime import datetime
 
 from .database import db
 
+
 class Post(db.Model):
     id = db.Column(
         db.Integer,

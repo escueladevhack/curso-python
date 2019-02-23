@@ -1,6 +1,6 @@
 Title: Bases de Datos
 Author: Mauricio Collazos
-Date: 2018-10-03
+Date: 2019-02-22
 ![]()
 ---
 class: center, middle, light, first-slide
