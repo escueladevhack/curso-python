@@ -1,4 +1,7 @@
 def power_of_two(number):
+    # Just validating types
+    if not isinstance(number, int):
+        return "", False
     if number < 0:
         return "", False
     # Transform the number to binary
@@ -10,9 +13,12 @@ def power_of_two(number):
         return len(binary_number) - 1, True
     return "", False
 
-power_of_two(1024)
+print(power_of_two(""))
 
 def especial_reverse(string):
+    # Just validating types
+    if not isinstance(string, str):
+        return ""
     # Import regular expression
     import re
     # Compile an expression for all non letters
@@ -28,4 +34,4 @@ def especial_reverse(string):
     # Re-transform to string
     return "".join(all_letters)
 
-especial_reverse("a,b&Dc")
+print(especial_reverse("a,b$c"))

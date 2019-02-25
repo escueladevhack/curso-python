@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block header %}
+  <h1>Posts</h1>
+{% endblock %}
+{% block content %}
+    <ul>
+
+        {% for post in posts %}
+            <li>
+                {{ post }}
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="/crear"> Crear </a>
+{% endblock %}

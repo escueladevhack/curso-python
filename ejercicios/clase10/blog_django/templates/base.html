@@ -1,0 +1,29 @@
+{% load staticfiles%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <nav>
+          <h1><a href="{% url 'blog:blog_list' %}">My Blog</a></h1>
+          <ul>
+
+          </ul>
+        </nav>
+        <section class="content">
+          <header>
+            {% block header %}
+
+            {% endblock %}
+          </header>
+          {% for message in messages %}
+            <div class="flash">{{ message }}</div>
+          {% endfor %}
+          {% block content %}
+
+          {% endblock %}
+        </section>
+    </body>
+</html>
