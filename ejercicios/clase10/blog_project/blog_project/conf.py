@@ -1,0 +1,5 @@
+CREAR_POST_URL_NAME = "crear_post"
+LISTAR_POST_URL_NAME = "lista_post"
+DETALLE_POST_URL_NAME = "detalle_post"
+ACTUALIZAR_POST_URL_NAME = "actualizar_post"
+ELIMINAR_POST_URL_NAME = "eliminar_post"

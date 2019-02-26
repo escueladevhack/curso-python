@@ -38,7 +38,7 @@ Hola {{ nombre }}
 ---
 
 # Operaciones Iterativas
-```
+```html
 {% for color in colores %}
     {{ color }}
 {% endfor %}

@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>
+        {{ post.title }}
+    </h1>
+
+    <p>
+        {{ post.body }}
+    </p>
+
+    <a href="{% url actualizar_url post.id %}">Actualizar</a>
+    <br>
+    <a href="{% url eliminar_url post.id %}">Eliminar</a>
+    <br>
+    Escrito por {{ nombre}}
+{% endblock %}

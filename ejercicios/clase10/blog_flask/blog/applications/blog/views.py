@@ -9,13 +9,13 @@ from . import (
     models
 )
 
+
 class List(View):
 
     def dispatch_request(self):
         context = dict()
         context["posts"] = models.Post.query.all()
         return render_template('list.html', **context)
-
 
 
 class Create(View):
@@ -57,6 +57,7 @@ class Detail(View):
 
 class Update(View):
     methods = ["GET", "POST"]
+
     def dispatch_request(self, post_id):
         context = dict()
         context["post"] = models.Post.query.filter_by(id=post_id).first_or_404()
