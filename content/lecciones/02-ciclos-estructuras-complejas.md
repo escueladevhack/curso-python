@@ -42,6 +42,8 @@ while condicion:
    - .join(list)
    - .split("separador")
    - .startswith("prefijo"")
+   
+[Complementar con Real Python](https://realpython.com/python-strings/)
 ---
 # Listas
 - .append(elemento) Añade 
@@ -53,16 +55,8 @@ while condicion:
 
 [Mas métodos](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
 
----
-# Ejercicios
 
-- Haga una lista con los pares de 0 hasta n (n ingresado por el usuario)
-- Haga una lista de n primeros cuadrados (n ingresado por el usuario)
-- Haga un programa que lea dos listas de mismo tamaño y haga parejas con los i-esimos elementos
-- Haga un programa que obtenga el menor elemento  y el mayor elemento de una lista
-- Haga un programa que obtenga el segundo menor elemento de una lista
-- Haga un programa que encuentre todos los elementos comunes en dos listas distintas
-- Haga un programa que encuentre todos los elementos no comunes en dos listas
+[Complementar con Real Python](https://realpython.com/python-lists-tuples/)
 
 ---
 # Diccionarios
@@ -71,6 +65,11 @@ for llave, valor in diccionario.items():
     print(llave, valor)
 ```
 
+[Completar con Real Python](https://realpython.com/python-dicts/)
+
+---
+# Conjuntos
+[Completar con Real Python](https://realpython.com/python-sets/)
 ---
 # Operador *
 ```python
@@ -84,3 +83,14 @@ y = [x for x in range(10)]
 z = {x for x in range(10) if x %2 x == 2}
 w = {str(x): x*2 for x in range(10)}
 ```
+
+---
+# Ejercicios
+
+- Haga una lista con los pares de 0 hasta n (n ingresado por el usuario)
+- Haga una lista de n primeros cuadrados (n ingresado por el usuario)
+- Haga un programa que lea dos listas de mismo tamaño y haga parejas con los i-esimos elementos
+- Haga un programa que obtenga el menor elemento  y el mayor elemento de una lista
+- Haga un programa que obtenga el segundo menor elemento de una lista
+- Haga un programa que encuentre todos los elementos comunes en dos listas distintas
+- Haga un programa que encuentre todos los elementos no comunes en dos listas

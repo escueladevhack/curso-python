@@ -199,3 +199,8 @@ canguro,1022,410
 - Cuales son los litros promedio de agua que necesitan los animales?
 - Cuál es el animal que mas litros de agua necesite
 - Agrupe el promedio de agua necesitada por cada animal según su especie
+
+---
+# Enlaces avanzados
+[Pandas Tricks](https://realpython.com/python-pandas-tricks/)
+[Fast Flexible Pandas](https://realpython.com/fast-flexible-pandas/)
