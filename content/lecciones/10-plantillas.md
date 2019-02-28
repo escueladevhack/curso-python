@@ -1,6 +1,6 @@
 Title: Plantillas
 Author: Mauricio Collazos
-Date: 2019-2-25
+Date: 2019-02-25
 ![]()
 ---
 class: center, middle, light, first-slide
