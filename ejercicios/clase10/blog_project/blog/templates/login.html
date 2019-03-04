@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Creación de usuario</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Enviar">
+    </form>
+{% endblock %}
+
+
+from matplotlib.pyplot import figure
+figure(
+    num=None,
+    figsize=(8, 6),
+    dpi=80,
+    facecolor='w',
+    edgecolor='k'
+)
+
+
+hola.savefig("output.png")
+
+
+hola = sb.plot()

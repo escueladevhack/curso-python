@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.contrib.auth.views import LoginView
+from django.contrib.auth.forms import AuthenticationForm
 
 from blog import views
 from . import conf
@@ -25,5 +27,23 @@ urlpatterns = [
     path('crear', views.Crear.as_view(), name=conf.CREAR_POST_URL_NAME),
     path('<int:pk>/detalle', views.Detalle.as_view(), name=conf.DETALLE_POST_URL_NAME),
     path('<int:pk>/actualizar', views.Actualizar.as_view(), name=conf.ACTUALIZAR_POST_URL_NAME),
-    path('<int:pk>/eliminar', views.Eliminar.as_view(), name=conf.ELIMINAR_POST_URL_NAME)
+    path('<int:pk>/eliminar', views.Eliminar.as_view(), name=conf.ELIMINAR_POST_URL_NAME),
+    path(
+        'ingresar',
+        LoginView.as_view(
+            template_name="login.html",
+            form_class=AuthenticationForm
+        )
+    )
 ]
+
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+# settings.py
+LOGIN_URL = "ingresar"
+from django import http
+
+def  form_valid(self, form):
+    twit = form.save(commit=False)
+    twit.user = self.request.user
+    return http.HttpResponseRedirect(self.success_url)

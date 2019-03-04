@@ -16,3 +16,10 @@
     <a href="{% url crear_url %}">Crear Post</a>
 
 {% endblock %}
+
+sns.factorplot(
+x='class',
+y='survival rate',
+hue='sex',
+data=df,
+kind='bar')
