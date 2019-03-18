@@ -146,3 +146,8 @@ sns.catplot(x="day", y="total_bill", kind="box", data=tips);
 - [Plotly](https://plot.ly/)
 - [Vispy](http://vispy.org/)
 - [Vega](https://vega.github.io/)
+
+---
+# Complementar contenido con
+https://www.kaggle.com/neilslab/seaborn-visualization
+https://realpython.com/python-data-visualization-bokeh/
