@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="/theme/css/custom_page.css" />
+
+
+
+
+    <title>
+
+        Sintaxis
+        </title>
+</head>
+<body class="white">
+
+    <div class="container">
+
+<section id="content" class="body">
+    <h1 class="entry-title">
+        Sintaxis
+    </h1>
+    
+    
+<div class="container"><h3 id="comentarios">Comentarios</h3>
+
+<p>Los comentarios de una sola lína son definidos por el caracter <code>#</code>. Una vez se encuentra este caracter, el resto de la lína es omitida</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs livecodeserver"><span class="hljs-built_in">variable</span> = <span class="hljs-number">12</span> <span class="hljs-comment"># Esto es un comentario de una sola línea</span></code></pre>
+
+<p>Los comentarios de líneas múltiples se delimitan con las triples comillas <code>'''</code></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs python"><span class="hljs-string">"""
+Este es un comentario de múltiple
+No es necesario definir ningún caracter extra
+"""</span></code></pre>
+
+<h3 id="estructura-de-línea-e-identación">Estructura de línea e identación</h3>
+
+<p>Cada sentencia es terminada con un caracter de salto de línea. Se puede separar una sentencia en varias líneas usando el caracter de continuación de línea <code>\</code></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs fix"><span class="hljs-attribute">valor </span>=<span class="hljs-string"> variable_1 + variable_2 * \
+    (variable_3 + variable_4)</span></code></pre>
+
+<p>La identación adecuada es de suprema importancia para python. Bloques de código mal identados levantarán la exepción <code>Identation Error</code>.</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs bash"><span class="hljs-keyword">if</span> valor_booleano:
+    sentencia
+    sentencia  <span class="hljs-comment"># Buena identación</span>
+<span class="hljs-keyword">else</span>:
+    sentencia
+     sentencia <span class="hljs-comment"># Mala identación</span></code></pre>
+
+<p>En el caso especial de los condicionales cortos, podemos tener una sintaxis como esta</p>
+
+<pre class="prettyprint"><code class=" hljs bash"><span class="hljs-keyword">if</span> valor_booleano: sentencia
+<span class="hljs-keyword">else</span>: sentencia</code></pre>
+
+<p>Si se desea colocar mas de una sentencia en una línea, se usa como separador de sentencias el caracter <code>;</code></p>
+
+
+
+<pre class="prettyprint"><code class=" hljs r">sentencia_1; sentencia_2; <span class="hljs-keyword">...</span></code></pre>
+
+<p>Es posible mezclar identaciones entre la tecla tab y los espacios, siempre y cuando se mantenga el conteo de que cada tab va a tomar un de 8 espacios.</p>
+
+
+
+<h3 id="palabras-reservadas">Palabras reservadas</h3>
+
+<p>En python es posible usar cualquier combinación iniciada con caracteres alfabéticos para definir identificadores.</p>
+
+<p>Python es sensible a mayúsculas, por tanto variable es distinto de Variable y distinto de VARIABLE.</p>
+
+<p><strong>Palabras reservadas</strong>:</p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>and</td>
+  <td>elif</td>
+  <td>global</td>
+  <td>or</td>
+</tr>
+<tr>
+  <td>assert</td>
+  <td>else</td>
+  <td>if</td>
+  <td>pass</td>
+</tr>
+<tr>
+  <td>break</td>
+  <td>except</td>
+  <td>import</td>
+  <td>print</td>
+</tr>
+<tr>
+  <td>class</td>
+  <td>exec</td>
+  <td>in</td>
+  <td>raise</td>
+</tr>
+<tr>
+  <td>continue</td>
+  <td>finally</td>
+  <td>is</td>
+  <td>return</td>
+</tr>
+<tr>
+  <td>def</td>
+  <td>for</td>
+  <td>lambda</td>
+  <td>try</td>
+</tr>
+<tr>
+  <td>del</td>
+  <td>from</td>
+  <td>not</td>
+  <td>while</td>
+</tr>
+</tbody></table>
+
+
+<blockquote>
+  <p>Es posible iniciar los identificadores con <code>_</code> o con <code>__</code> pero usualmente esta convención es usada para atributos privados en las clases y funciones o métodos especiales.</p>
+</blockquote>
+
+
+
+<h3 id="literales">Literales</h3>
+
+<p>Existen 4 tipos de números <br>
+- Enteros: Definidos con un tamaño fijo en bytes <br>
+- Enteros grandes: Tamaño máximo definido por la cantidad de memoria disponible del equipo, se notan por una L al final <br>
+- Flotantes: Números en punto flotante <br>
+- Imaginarios: Números imaginarios, se notan por una J al final</p>
+
+<p>Las cadenas de caracteres se pueden representar de dos maneras <br>
+- Caracteres de 8 bits:  Usados usualmente para representar ASCII o latin1 <br>
+- Caracteres de 16 bits: Usados para representar caracteres universalmente.</p>
+
+
+
+<h3 id="operadores-delimitadores-y-símbolos-especiales">Operadores, delimitadores y símbolos especiales</h3>
+
+<p>Los operadores permitidos son:</p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>+ (Suma)</td>
+  <td>- (Resta)</td>
+  <td>* (Multiplicación)</td>
+  <td>** (Potencia)</td>
+  <td>/ (División)</td>
+</tr>
+<tr>
+  <td>% (Módulo)</td>
+  <td>&gt;&gt; (Shift derecho binario)</td>
+  <td>&lt;&lt; (Shift izquierdo binario)</td>
+  <td>&amp; (Conjunción binaria)</td>
+  <td>| (Disyunción binaria)</td>
+</tr>
+<tr>
+  <td>^ (XOR binario)</td>
+  <td>+= (Suma y asignación)</td>
+  <td>-= (Resta y asignación)</td>
+  <td>*= (Multiplicación y asignación)</td>
+  <td>**= (Potencia y asignación)</td>
+</tr>
+<tr>
+  <td>/= (División y asignación)</td>
+  <td>%= (Módulo y asignación)</td>
+  <td>&lt;&lt;= (Shift izquierdo y asignación)</td>
+  <td>&gt;&gt;= (Shift derecho y asignación)</td>
+  <td>&amp;= (AND binario y asignación)</td>
+</tr>
+<tr>
+  <td>= (Asignación)</td>
+  <td>^= (XOR y asignación)</td>
+  <td>~ (Negación binaria)</td>
+  <td>&lt; (Menor que)</td>
+  <td>&gt; (Mayor que)</td>
+</tr>
+<tr>
+  <td>&lt;= (Menor o igual que)</td>
+  <td>&gt;= (Mayor o igual que)</td>
+  <td>== (Comparación)</td>
+  <td>!= (Diferencia)</td>
+  <td>&lt;&gt; (Diferencia, Obsoleto en Python3)</td>
+</tr>
+</tbody></table>
+
+  <a href="https://www.tutorialspoint.com/python/python_basic_operators.htm">
+    Mas sobre operadores básicos en Python
+  </a>
+
+
+<p>Los caracteres de delimitación son los siguientes</p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>(</td>
+  <td>)</td>
+  <td>[</td>
+  <td>]</td>
+</tr>
+<tr>
+  <td>{</td>
+  <td>}</td>
+  <td>,</td>
+  <td>:</td>
+</tr>
+<tr>
+  <td>.</td>
+  <td>`</td>
+  <td>=</td>
+  <td>;</td>
+</tr>
+</tbody></table>
+
+
+<p>Los símbolos especiales </p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>‘</td>
+  <td>“</td>
+  <td>#</td>
+  <td>\</td>
+</tr>
+</tbody></table>
+
+
+<p>Los siguientes caracteres no pueden aparecer en el programa a menos que aparezcan dentro de una cadena</p>
+
+<table>
+<thead>
+<tr>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>@</td>
+  <td>$</td>
+  <td>?</td>
+</tr>
+</tbody></table>
+
+
+
+
+<h3 id="cadenas-de-documentación">Cadenas de documentación</h3>
+
+<p>Si la primera sentencia de cada módulo, clase o función es una cadena, esta se vuelve una cadena de documentación que podrá ser accesada por el atributo especial <code>__doc__</code></p>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+</div>
+
+</section>
+    </div>
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+          <link rel="stylesheet" href="/theme/css/remark_theme.css" />
+
+        <title>Curso rápido de Python</title>
+        <meta charset="utf-8" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <!--<header id="banner" class="body">-->
+                <!--<h1><a href="/">Curso rápido de Python <strong></strong></a></h1>-->
+        <!--</header>-->
+        <!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+
+<textarea id="source">
+    ![]()
+---
+class: center, middle, light, first-slide
+# Plantillas
+## Mauricio Collazos
+.footnote[]
+---
+# Plantillas
+- string.Template
+- Mako
+- Jinja2
+- Django Templates
+---
+# Descubrimiento de plantillas
+- Plantillas en raiz de proyecto
+- Plantillas por aplicación
+---
+# Interpolación
+
+Interpolación
+```html
+Hola {{ nombre }}
+```
+
+---
+# Operaciones Condicionales
+
+```html
+{% if variable %}
+    Verdadero
+{% else %}
+    False
+{% endif %}
+```
+---
+
+# Operaciones Iterativas
+```html
+{% for color in colores %}
+    {{ color }}
+{% endfor %}
+```
+---
+# Extensibilidad
+Base HTML
+```html
+<body>
+    <section class="content">
+      <header>
+        {% block header %}
+
+        {% endblock %}
+      </header>
+      {% block content %}
+
+      {% endblock %}
+    </section>
+</body>
+
+```
+
+---
+
+Lista html
+```html
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>Posts</h1>
+{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+    <article class="post">
+      <header>
+        <div >
+          <h1>
+              <a href="{{ url_for('blog.blog_detail', post_id=post.id) }}">
+                  {{ post['title'] }}
+              </a>
+          </h1>
+        </div>
+      </header>
+      <p class="body">{{ post.body }}</p>
+    </article>
+
+ {% endfor %}
+{% endblock %}
+```
+
+---
+
+</textarea>
+<script src="/theme/js/remark.min.js"></script>
+<script>
+    var slideshow = remark.create();
+</script>
+
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
